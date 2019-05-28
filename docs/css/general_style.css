@@ -1,0 +1,162 @@
+html,body{margin:0;padding:0;width:100%;background-color:#00cccc;color:#000;box-sizing:border-box;}
+a,a:visited,a:hover,a:active{color:#000;}
+body {
+	background-image:url('../images/savethedate.png');
+	background-attachment:fixed;
+	background-position: center;
+  	font-size:100%;
+  	font-family:Montaga, serif;
+  	margin:auto;
+  	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-touch-callout: none;
+    /*-webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;*/
+}
+/*
+body::after{
+	content: "";
+	background-color:rgba(0,204,204,0.2);
+	text-align:center;
+	position:absolute;
+	top:0;left:0;bottom:0;right:0;
+}*/
+
+/* ------container elements------ */
+.page-content {
+  position: relative;
+  min-height: 100vh;
+  max-width:100%;margin:auto;
+}
+.wrapper{
+	max-width:1100px;
+	margin:auto;
+	padding:1em;
+	text-align:center;
+	border-top:1px solid black;
+}
+.wrapper div, h1{
+	vertical-align: top;
+	background-color:rgba(0,204,204,0.8);
+	border-radius: 1em;
+}
+.wrapper div p{margin-bottom:1.3em;line-height:1.3em;}
+.wrapper div, .footernavlinks a, .name a, h1{
+	-webkit-box-shadow:	10px 10px 10px rgba(0,204,204,.8), -10px -10px 10px rgba(0,204,204,.8);
+       -moz-box-shadow: 10px 10px 10px rgba(0,204,204,.8), -10px -10px 10px rgba(0,204,204,.8);		 
+	        box-shadow:	10px 10px 10px rgba(0,204,204,.8), -10px -10px 10px rgba(0,204,204,.8);
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.info{display:inline-block;width:400px;max-width:90%;padding:1em;margin:1em 0.5em;}
+
+/* ------header and footer------ */
+header{padding-top:1em;}
+footer{width:100%;text-align:center;}
+.name{text-align:right;margin:0em 2em;font-size:1.8em;font-variant: small-caps;}
+.name a{text-decoration:none!important;}
+.wrapper, footer div {border-top:0;}
+.name a,.bignavlinks a, .footernavlinks a {background-color:rgba(0,204,204,0.8);}
+
+/* ------headings------ */
+h1,h2,h3{font-weight:normal;}
+h1{max-width:300px;}
+h2{
+	width:500px;max-width:90%;
+	padding-top:1em; margin:auto;
+	border-top:2px solid #00b3b3; font-size:1.9em;
+	font-variant: small-caps;
+}
+h1{margin:auto;margin-top:3em;}
+h2:first-of-type{border-top:0px;padding-top:0;}
+h1:first-of-type{margin-top:0.5em;}
+h1+ h2{border-top:0px;padding-top:0;}
+
+
+/* ------look and behavior of navbar(s) and contents------ */
+.overlay{
+	position:fixed;display:none;
+	cursor:pointer;z-index:1;
+	width:100%;height:100%;
+	top:0;left:0;right:0;bottom:0;
+	background-color:rgba(0,0,0,0.5);
+}
+
+/* big screens version */
+.bignavlinks {margin:1em;text-align:right;}
+.bignavlinks a,.footernavlinks a {padding:0.2em 0.4em;height:1.1em;border-radius:5px;margin:0.5em;}
+nav a{
+	color:black;
+	font-size:1.2em;
+	text-decoration:none;
+}
+.bignavlinks a:hover{background-color:#00b3b3;}
+
+/* small screens version */
+.navbar-bars{margin:10px 0 10px 10px;float:left;display:none;cursor:pointer!important;}
+.navbar-bars span{display:table-cell;vertical-align:middle;padding:10px 0 7px 7px;font-size:0.8em;}
+.smallnavlinks{
+	display:none;
+	line-height:2.4em;
+	position:fixed;
+	width:100%;
+	text-align:center;
+	background-color:#00cccc;
+	border-bottom:1px solid black;
+	margin-bottom:2px;
+	top:57px;
+	border-top:1px solid black;
+}
+.smallnavlinks ul {list-style:none;margin:0px;padding:0px;}
+.smallnavlinks li {border-bottom:1px solid black;text-align: center!important}
+.smallnavlinks li:hover{background-color:#00b3b3;}
+
+/* footer version */
+.footernavlinks {
+	font-size:0.7em;
+	margin:1.2em;
+}
+
+
+/* ------responsive to window size changes------ */
+@media only screen and (min-width:1020px){.info{margin:1em 3%;}}
+@media only screen and (max-width:935px){.info{width:600px;}}
+@media only screen and (max-width:745px){
+	.bignavlinks a {margin:0.4em;}
+	body{padding:0;}
+}
+@media only screen and (max-width:650px){
+	.bignavlinks a {font-size:1em;margin:0.2em;} /* NOTE: change select-class in all page-specific css if this max width or font size changes */
+}
+@media only screen and (min-width:500px){
+	.smallnavlinks{display:none!important;}
+	#overlaybkgrnd{display:none!important;}
+}
+@media only screen and (max-width:499px){
+	header{
+		height:57px;
+		position:fixed;
+		width:100%;
+		z-index:3;
+		background-color:#00cccc;
+		top:0;
+		padding:0;
+		border-bottom:1px solid black;
+	}
+	header .name {font-size:1.6em;max-width:175px;max-height:50px;margin:5px 15px 5px 0px;float:right;}
+	.wrapper{padding-top:57px!important;}
+	.bignavlinks {display:none;}
+    .navbar-bars{display:table!important;}
+    .footernavlinks {font-size:0.5em;margin:1em;} .footernavlinks a {padding:0.2em;}
+}
+@media only screen and (max-width:250px){
+	header .name a {display:none;}
+	.navbar-bars{width:100%;text-align:center;margin:0.8em 0em;}
+	.navbar-bars span{display:none;}
+}
+

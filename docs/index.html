@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>It's A Wedding! </title>
+	<meta name='keywords' content='wedding'/>
+	<link rel='icon' href='../images/favicon-32x32.png'>
+	<link rel='canonical' href='https://www.itsawedding.fyi/'>
+	<meta id='viewport' name='viewport' content='width=device-width, initial-scale=1'/>
+	<!-- STYLES -->
+	<link rel='stylesheet' type='text/css' href='../css/general_style.css'/>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montaga'/>
+	<link rel='stylesheet' type='text/css' href='../css/font-awesome.min.css'/>
+	<!-- page-specific stylesheets -->
+	<link rel='stylesheet' type='text/css' href='/css/index.css'/>
+	<!-- Global site tag (gtag.js) - Google Analytics 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-99307928-2"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-99307928-2');
+	</script>-->
+	<!-- SCRIPTS -->
+	<script type='text/javascript' src='../js/jquery-3.1.1.min.js'></script>
+	<script type='text/javascript' src='../js/jquery.touchwipe.min.js'></script>
+	<script type='text/javascript' src='../js/general_fxns.js'></script>
+	<!--////////////////////////////////////////////////////////////////// -->
+
+<body>
+	<div class="page-content">
+		<header>
+		  <div class='navbar-bars' style='display:none;' onclick='togglemenu();'><i class='fa fa-bars fa-2x'></i> <span></span></div>
+		  <div class='name'><a href='/'>It's A Wedding!</a></div>
+		
+		<!--Navbar for big screens -->
+		  <nav class='bignavlinks'>
+		  	  <a class='rsvp-select' href='/rsvp'>RSVP</a>
+		  	  <a class='wedding-select' href='/wedding'>Wedding</a>
+		  	  <a class='where-select' href='/lodging-and-travel'>Lodging &amp; Travel</a>
+			  <a class='what-select' href='/activities'>Activities</a>
+			  <a class='cute-select' href='/cute-shit'>Cute shit</a>	  
+		  </nav>
+		  
+		<!-- Alt navbar (slide down from bars, for small screens) -->
+			<nav class='smallnavlinks' style='display:none;'>
+			<ul>
+			  <a class='rsvp-select' href='/rsvp'><li>RSVP</li></a>
+		  	  <a class='wedding-select' href='/wedding'><li>Wedding</li></a>
+		  	  <a class='where-select' href='/lodging-and-travel'><li>Lodging &amp; Travel</li></a>
+			  <a class='what-select' href='/whattodo'><li>Activities</li></a>
+			  <a class='cute-select' href='/cute-shit'><li>Cute shit</li></a>	  
+			</ul>
+			</nav>
+		</header>
+		<!-- Overlay effect when opening topnav on small screens -->
+		<div class='overlay' onclick='togglemenu();' title='close menu' id='overlaybkgrnd'></div>		<div class="wrapper">
+		    <div class='announcement'>
+<h1>We&#39;re getting married!</h1>
+<h3>please use the link below to</h3>
+<h2><a href='./rsvp' class='rsvp'>RSVP by October 5th</a></h2>
+</div>
+		</div>
+		</div>
+		<footer>
+		<div>Hannah &amp; Ben</div>
+		<!--Navbar for footer -->
+		  <nav class='footernavlinks'>
+		  	  <a class='rsvp-select' href='/rsvp'>RSVP</a>
+		  	  <a class='wedding-select' href='/wedding'>Wedding</a>
+		  	  <a class='where-select' href='/lodging-and-travel'>Lodging &amp; Travel</a>
+			  <a class='what-select' href='/activities'>Activities</a>
+			  <a class='cute-select' href='/cute-shit'>Cute shit</a>	  
+		  </nav>
+		</footer>
+	</body>
+</html>
