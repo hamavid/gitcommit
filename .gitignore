@@ -1,0 +1,6 @@
+# dependency directories
+node_modules/
+
+# notes to self
+_content/
+notes.txt
