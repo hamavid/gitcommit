@@ -1,6 +1,6 @@
 ---
 layout: landingpage.html
-outdirs: '..'
+outdirs: '.'
 ---
 <div class='announcement'>
 <h1>We're getting married!</h1>
