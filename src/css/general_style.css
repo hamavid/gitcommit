@@ -37,13 +37,13 @@ body::after{
 	text-align:center;
 	border-top:1px solid black;
 }
-.wrapper div, h1{
+.wrapper div:not[form div], h1{
 	vertical-align: top;
 	background-color:rgba(0,204,204,0.8);
 	border-radius: 1em;
 }
 .wrapper div p{margin-bottom:1.3em;line-height:1.3em;}
-.wrapper div, .footernavlinks a, .name a, h1{
+.wrapper div:not[form div], .footernavlinks a, .name a, h1{
 	-webkit-box-shadow:	10px 10px 10px rgba(0,204,204,.8), -10px -10px 10px rgba(0,204,204,.8);
        -moz-box-shadow: 10px 10px 10px rgba(0,204,204,.8), -10px -10px 10px rgba(0,204,204,.8);		 
 	        box-shadow:	10px 10px 10px rgba(0,204,204,.8), -10px -10px 10px rgba(0,204,204,.8);
