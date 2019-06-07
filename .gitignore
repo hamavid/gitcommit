@@ -4,3 +4,6 @@ node_modules/
 # notes to self
 _content/
 notes.txt
+
+# package-lock json
+package-lock.json
