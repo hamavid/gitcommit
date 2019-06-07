@@ -7,3 +7,7 @@ notes.txt
 
 # package-lock json
 package-lock.json
+
+
+.DS_Store
+layouts/.DS_Store
