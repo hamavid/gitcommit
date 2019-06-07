@@ -1,4 +1,4 @@
-.search {
+.rsvp {
 	float: center;
 }
 
@@ -7,14 +7,14 @@
   float: center;
 }
 
-.search-container input[type=text] {
+.rsvp input[type=text] {
   padding: 6px;
   margin-top: 8px;
   font-size: 17px;
   border: none;
 }
 
-.search-container button {
+.rsvp button {
   float: center;
   padding: 6px 10px;
   margin-top: 8px;
@@ -25,9 +25,33 @@
   cursor: pointer;
 }
 
-.search-container button:hover {
+.rsvp button:hover {
   background: #ccc;
 }
+
+.rsvp-form input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+#respondent {
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 17px;
+	border: none;
+	background: none;
+}
+
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+
 
 /*
 @media screen and (max-width: 600px) {
