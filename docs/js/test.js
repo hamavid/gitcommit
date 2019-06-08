@@ -1,42 +1,42 @@
 $(document).ready(function(){
 
-	var people = ['Yvonne','Dylan','Aviva','Jake','Jim','Jacob','Karen','Ellen','Evie'];
+var people = ['Yvonne Rogell','Dylan Holmes','Aviva Hamavid','Jake Patterson','Jim Hammerman',
+              'Jacob Lacouture','Karen Snider','Ellen Davidson','Evie Hammerman'];
 		
-		/*array['Yvonne'] = 'Yvonne','Dylan';
-		array['Dylan'] = 'Yvonne','Dylan';
-		array['Aviva'] = 'Aviva','Jake';
-		array['Jake'] = 'Aviva','Jake';*/
-
 var rsvpform = $('#rsvp-form');
 autocomplete(rsvpform, people);
 // function to automplete names based on text field element and an array of possible autocompleted values:
 function autocomplete(inp, array) {
   var currentFocus;
   // execute a function when someone writes in the text field:
-  //inp.addEventListener("input", function(e) {
     inp.keyup(function() {
-      var val = $(this).val();
-      closeAllLists();
+      var val = $(this).val(); // get the current text field input value
+      $('#autocomplete-list').html(''); // empty previous autocomplete list
       if (!val) { return false;}
+      if (val == ''){$('#autocomplete-list').html('');} // close list if there's nothing in the text field
       currentFocus = -1;
       // for each possible guest...
       for (i = 0; i < array.length; i++) {
         // check if the guest name starts with the same letters as the text field value:
         if (array[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
-          //create a DIV element for each matching element:
+          // if so, save the current list
           var currentlist=$('#autocomplete-list').html();
-          var possname = '<div class="option"><strong>'+ array[i].substr(0, val.length) + '<strong>' + array[i].substr(val.length) + '<input type="hidden" value="' + array[i] + '">';
+          //create a DIV element for the matching name:
+          var possname = '<div class="option"><strong>'+ array[i].substr(0, val.length) + '</strong>' + array[i].substr(val.length) + '<input type="hidden" value="' + array[i] + '">';
+          // empty the current list and create a new list with all previous names plus this new one
+          $('#autocomplete-list').html('');
           $('#autocomplete-list').html(currentlist + possname);
-         // a.appendChild(b);
         }
       }
   });
+
+// function to autofill
       // execute a function when someone clicks on the item value (DIV element):
             $('.option').on("click", function(e) {
               //insert the value for the autocomplete text field:
               inp.val() = $(this).find("input").val();
-              // Now close the list of autocompleted values,(or any other open lists of autocompleted values:
-              closeAllLists();
+              // Now close the list of autocompleted values
+              $('#autocomplete-list').html('');
             });
 
 /*  // execute a function if user presses a key on the keyboard:
