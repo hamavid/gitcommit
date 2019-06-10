@@ -1,3 +1,16 @@
+$(document).ready(function(){
+	$("#willNotAttend").click(function() {
+		$("#diet-restrictions").hide();
+	});
+	$("#willAttend").click(function(){
+		$("#diet-restrictions").show();
+	})
+});
+
+
+
+
+/*
 document.getElementById("testing").addEventListener("click", myFunction); 
 
 
@@ -10,3 +23,18 @@ function myFunction() {
   }
 }
 
+
+$(document).ready(function(){
+	$.fn.myFunction = function(){
+		var x = $( "#myDIV" )
+		x.css( "border", "3px solid red" );
+		$("#testing").click(function() {
+			$("#myDIV").hide();
+		});
+	}
+	$(".call-btn").click(function(){
+		$.fn.myFunction();
+	});
+});
+
+*/

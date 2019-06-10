@@ -29,7 +29,7 @@ title: RSVP
 		      <label for="willNotAttend">Will not attend</label>
 	   	  </section>
 	   	  <br>
-	   	  <section class="diet-restrictions">
+	   	  <section class="diet-restrictions" id="diet-restrictions" hidden>
 	   	  	<label for="diet">Do you have any dietary restrictions?<br>Please fill them out below.<br><br></label>
 	   	  	<textarea name="diet" id="diet" placeholder="Fill out dietary restrictions" rows="4" cols="35"></textarea>
 	   	  </section>
@@ -37,11 +37,8 @@ title: RSVP
 	      <button type="submit">Submit <i class="fa fa-heart"></i></button>
 	    </form>
 	</div>
-<!-- 	<div><button id="testing">Try it</button></div>
-	<div id="myDIV">
-	This is my DIV element.
-	</div> -->
 
+</div>
 </div>
 
 
