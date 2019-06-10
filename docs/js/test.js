@@ -1,97 +1,60 @@
 $(document).ready(function(){
 
-var people = ['Yvonne Rogell','Dylan Holmes','Aviva Hamavid','Jake Patterson','Jim Hammerman',
-              'Jacob Lacouture','Karen Snider','Ellen Davidson','Evie Hammerman'];
-		
-var rsvpform = $('#rsvp-form');
-autocomplete(rsvpform, people);
-// function to automplete names based on text field element and an array of possible autocompleted values:
-function autocomplete(inp, array) {
-  var currentFocus;
-  // execute a function when someone writes in the text field:
-    inp.keyup(function() {
-      var val = $(this).val(); // get the current text field input value
-      $('#autocomplete-list').html(''); // empty previous autocomplete list
-      if (!val) { return false;}
-      if (val == ''){$('#autocomplete-list').html('');} // close list if there's nothing in the text field
-      currentFocus = -1;
-      // for each possible guest...
-      for (i = 0; i < array.length; i++) {
-        // check if the guest name starts with the same letters as the text field value:
-        if (array[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
-          // if so, save the current list
-          var currentlist=$('#autocomplete-list').html();
-          //create a DIV element for the matching name:
-          var possname = '<div class="option"><strong>'+ array[i].substr(0, val.length) + '</strong>' + array[i].substr(val.length) + '<input type="hidden" value="' + array[i] + '">';
-          // empty the current list and create a new list with all previous names plus this new one
-          $('#autocomplete-list').html('');
-          $('#autocomplete-list').html(currentlist + possname);
-        }
-      }
+  var names = {
+    "G5LJM": "Pam Swing, Marty Plotkin",
+    "LMJGU": "Anna Plotkin-Swing",
+    "WH3TH": "Ellen Davidson",
+    "N7UE2": "Jim Hammerman, Maggie Leary",
+    "A5UU4": "Aviva Hamavid, Jake Patterson",
+    "DMESP": "Henry Plotkin",
+    "G2SM3": "Helen Plotkin, Richard Schuldenfrei",
+    "HN28S": "Miriam Schuldenfrei, Manse Jennings",
+    "WZ86A": "Sarah Schuldenfrei, Matt Donaldson",
+    "LMZDZ": "Bradford Swing, Tim Harbold"
+  }
+
+  // functions to find names by code (key) and report it in the result div when the key button is clicked
+  $('.search-container button').click(function(e){
+    // change css back if necessary
+    $('.broken').removeClass('highlight');
+    e.preventDefault();
+    var input = $('#namesinput').val().toUpperCase();
+    if (names[input] === undefined) {
+      var result = "Hmmm that doesn't look right. Check that your code is 5 characters long and contains only letters and numbers.";
+      $('#result').html(result);
+    } else {
+      getnames(input);
+    }
+  });
+  function getnames(inp) {
+    var respondingfor=names[inp];
+    var numppl = respondingfor.split(', ').length;
+    $('#result').html('Looks like you are responding for: <br><p id="respondents">' + parsenames_pretty(respondingfor) + '</p>');
+    // populate yes button depending on num ppl
+    if (numppl > 1) {$('#indeed').html("Yes, that's us!");}
+    else {$('#indeed').html("Yes, that's me!");}
+    // show confirmation buttons
+    $('#confirm-buttons').css('display','block');
+  };
+
+  // function to add ands where appropriate in name lists
+  function parsenames_pretty(namelist) {
+    var lastcomma=namelist.lastIndexOf(', ', namelist.length);
+    if (lastcomma > 0) {
+      var newnames = namelist.substr(0,lastcomma) + ' and' + namelist.substr(lastcomma+1);
+      return newnames;
+    }
+    else {return namelist;}
+  }
+
+  // If 'nope try again' button is clicked, clear text field, result field, and highlight the link to alt-rsvp page in red
+  $('#notso').click(function(){
+    $('#namesinput').val('');
+    $('#result').html('');
+    $('.broken, .broken a').addClass('highlight');
   });
 
-// function to autofill
-      // execute a function when someone clicks on the item value (DIV element):
-            $('.option').on("click", function(e) {
-              //insert the value for the autocomplete text field:
-              inp.val() = $(this).find("input").val();
-              // Now close the list of autocompleted values
-              $('#autocomplete-list').html('');
-            });
 
-/*  // execute a function if user presses a key on the keyboard:
-  inp.on("keydown", function(e) {
-      var x = document.getElementById(this.id + "autocomplete-list");
-      if (x) x = x.getElementsByTagName("div");
-      if (e.keyCode == 40) {
-        // If the arrow DOWN key is pressed, increase the currentFocus variable:
-        currentFocus++;
-        // and and make the current name more visible:
-        addActive(x);
-      } else if (e.keyCode == 38) { //up
-        // If the arrow UP key is pressed, decrease the currentFocus variable:
-        currentFocus--;
-        // and and make the current name more visible:
-        addActive(x);
-      } else if (e.keyCode == 13) {
-        // If the ENTER key is pressed, prevent the form from being submitted,
-        e.preventDefault();
-        if (currentFocus > -1) {
-          // and simulate a click on the "active" name:
-          if (x) x[currentFocus].click();
-        }
-      }
-  });*/
-  
-  function addActive(x) {
-    // a function to classify an name as "active":
-    if (!x) return false;
-    // start by removing the "active" class on all names:
-    removeActive(x);
-    if (currentFocus >= x.length) currentFocus = 0;
-    if (currentFocus < 0) currentFocus = (x.length - 1);
-    // add class "autocomplete-active":
-    x[currentFocus].classList.add("autocomplete-active");
-  }
-  function removeActive(x) {
-    // a function to remove the "active" class from all autocomplete items:
-    for (var i = 0; i < x.length; i++) {
-      x[i].classList.remove("autocomplete-active");
-    }
-  }
-  function closeAllLists(elmnt) {
-    // close all autocomplete lists in the document, except the one passed as an argument:
-    var x = document.getElementsByClassName("option");
-    for (var i = 0; i < x.length; i++) {
-      if (elmnt != x[i] && elmnt != inp) {
-      x[i].parentNode.removeChild(x[i]);
-    }
-  }
-}
-// execute a function when someone clicks in the document:
-/*document.on("click", function (e) {
-    closeAllLists(e.target);
-});*/
-}
+
 
 });

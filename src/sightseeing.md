@@ -1,7 +1,7 @@
 ---
 layout: page.html
 outdirs: '..'
-title: Activities
+title: Sightseeing
 ---
 
 <!-- organized activities? 
