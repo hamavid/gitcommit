@@ -8,7 +8,8 @@
          -o-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
 }
-.rsvp{text-decoration:none;background-color:#5cdede;padding:0.5em;border:2px solid black;}
+.rsvp{text-decoration:none;background-color:#7de5e5;padding:0.5em;border:2px solid black;}
+.rsvp:hover{background-color:#bdf1f1;}
 h3{font-variant: small-caps;font-size:1.5em;}
 h2{font-variant:normal;}
 h1{font-size:2.7em;max-width:90%;}

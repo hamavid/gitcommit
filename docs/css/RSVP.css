@@ -1,65 +1,61 @@
-.rsvp {
-	float: center;
+.wrapper{
+  margin:auto;
 }
+footer{position:absolute;bottom:0;}
 
-/* Style the search box inside the navigation bar */
-.search-container {
-  float: center;
+/* Styles for the code entry section */
+.broken{font-size:0.7em;font-style:italic;}
+.broken a {color:#004242;}
+.highlight, .highlight a {color:red;font-size:1em;}
+.search-container input {
+  width:150px;max-width:80%;
+  display:inline-block;margin:auto;
 }
-
-.rsvp input[type=text] {
+.rsvp input[type=text], textarea {
+  font-family:Montserrat, sans-serif;
   padding: 6px;
   margin-top: 8px;
   font-size: 17px;
   border: none;
 }
-
-.rsvp button {
+#findnames, #confirm-buttons button, #rsvp-form button[type=submit]{
+  font-family:inherit;
+  font-size:0.9em;padding:0.2em 0.5em;
+  margin:0.7em;
+  background-color:#7de5e5;
+  border:2px solid black;
+  cursor:pointer;
+}
+#findnames:hover, #confirm-buttons button:hover, #rsvp-form button[type=submit]:hover {
+  background-color:#bdf1f1;
+}
+#findnames{
   float: center;
-  padding: 6px 10px;
+  padding: 5px 9px;
   margin-top: 8px;
   margin-right: 16px;
-  background: #ddd;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
+  font-size: 15px;
+  margin-left:0;
 }
 
-.rsvp button:hover {
-  background: #ccc;
+#result{padding-top:1.5em;}
+#respondents{font-size:1.2em;font-weight:bold;}
+#confirm-buttons{display:none;}
+
+
+/* Styles for the RSVP form itself */
+#rsvp-form{display:none;}
+#rsvp-form section{display:none;text-align:left;margin:auto;max-width:300px;}
+#rsvp-form section, #rsvp-form textarea{font-family:Montserrat, sans-serif;}
+#rsvp-form textarea{font-size:0.8em;max-width:90%;margin-bottom:1.5em;}
+#rsvp-form section div {font-family:Montaga, serif;padding:1em 0 0.5em 0;}
+#rsvp-form section input[type=text] {background-color:inherit;color:inherit;}
+#rsvp-form button[type=submit] {
+  font-size:1.3em;margin-top:1.8em;
+}
+#rsvp-form section input[readonly]{
+  font-size:1.1em;font-weight:bold;padding:1em 0;margin-right:1em;
 }
 
-.rsvp-form input[type=text] {
-  padding: 6px;
-  margin-top: 8px;
-  font-size: 17px;
-  border: none;
-}
-
-#respondent {
-	padding: 6px;
-	margin-top: 8px;
-	font-size: 17px;
-	border: none;
-	background: none;
-}
 
 
-
-/*
-@media screen and (max-width: 600px) {
-  .search-container {
-    float: none;
-  }
-  .search-container input[type=text], .search-container button {
-    float: none;
-    display: block;
-    text-align: left;
-    width: 100%;
-    margin: 0;
-    padding: 14px;
-  }
-  .topnav input[type=text] {
-    border: 1px solid #ccc;  
-  }
-}*/
