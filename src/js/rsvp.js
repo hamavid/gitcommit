@@ -60,7 +60,6 @@ $(document).ready(function(){
     else {return namelist;}
   }
 
-
 /* ///////////// Functions to toggle sections depending on num guests and responses for each guest //////////////*/
   // If 'nope try again' button is clicked, clear text field, result field, and highlight the link to alt-rsvp page in red
   $('#notso').click(function(){
@@ -108,15 +107,18 @@ $(document).ready(function(){
     var att_section = $('<section></section>').attr('id', 'att'+i);
     $('#rsvp-form form').append(att_section);
     att_section.append('<input type="text" value="" name="name'+i+'" readonly><br>');
-    att_section.append('<input type="radio" name="att'+i+'" class="willAttend" value="willAttend" required>');
-    att_section.append('<label for="willAttend">Will attend</label><br>');
-    att_section.append('<input type="radio" name="att'+i+'" class="willNotAttend" value="willNotAttend" required>');
-    att_section.append('<label for="willNotAttend">Will not attend</label><br>');
+    att_section.append('<label><input type="radio" name="att'+i+'" class="willAttend" value="willAttend" required>Will attend</label><br>');
+    att_section.append('<label><input type="radio" name="att'+i+'" class="willNotAttend" value="willNotAttend" required>Will not attend</label><br>');
     var comment_section = $('<section></section').attr('id', 'diet'+i);
     $('#rsvp-form form').append(comment_section);
     comment_section.append('<div></div>');
     comment_section.append('<textarea name="diet'+i+'" placeholder="Enter allergies/dietary restrictions, or anything else you want to tell us!" rows="4"></textarea>');
   }
-
-
 });
+  
+
+
+
+
+
+
