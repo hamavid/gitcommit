@@ -45,7 +45,7 @@ footer{position:absolute;bottom:0;}
 
 /* Styles for the RSVP form itself */
 #rsvp-form{display:none;}
-#rsvp-form section{display:none;text-align:left;margin:auto;max-width:300px;}
+#rsvp-form section{display:block;text-align:left;margin:auto;max-width:300px;}
 #rsvp-form section, #rsvp-form textarea{font-family:Montserrat, sans-serif;}
 #rsvp-form textarea{font-size:0.8em;max-width:90%;margin-bottom:1.5em;}
 #rsvp-form section div {font-family:Montaga, serif;padding:1em 0 0.5em 0;}

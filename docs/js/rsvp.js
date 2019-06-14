@@ -12,12 +12,12 @@ $(document).ready(function(){
     "HN28S": "Miriam Schuldenfrei, Manse Jennings",
     "WZ86A": "Sarah Schuldenfrei, Matt Donaldson",
     "LMZDZ": "Bradford Swing, Tim Harbold",
-    "X97ER": "Test guest, Another Tester",
+    "X97ER": "Test Guest, Another Tester",
   }
 
   // functions to find names by code (key) and report it in the result div when the key button is clicked
   $('.search-container button').click(function(e){
-    // change all css back to how it is when page is loaded // NOTE: THERE IS MORE, THINK THIS THROUGH
+    // change all css back to how it would be on refresh // NOTE: IS THERE MORE? THINK THIS THROUGH
     $('.broken').removeClass('highlight');
     $('#result, #rsvp-form div').html('');
     $('#rsvp-form, #rsvp-form section').hide();
@@ -68,37 +68,44 @@ $(document).ready(function(){
     // If 'yes that's me/us!' button is clicked, show appropriate number of will/won't attends and populate name field
     $('#indeed').click(function(){
       // deal with input text
-      var input = $('#namesinput').val().toUpperCase();
+      var input = $('#namesinput').val().toUpperCase(); //uppercase it in case people were inconsistent
+      // if there is no guestlist entry for this code, display error message
       if (names[input] === undefined) {
         var result = "Hmmm that doesn't look right. Check that your code is 5 characters long and contains only letters and numbers.";
         $('#result').html(result);
         return;
+      // if guestlist entry is found, continue
       } else {
         var respondingfor=names[input];
         var numppl = respondingfor.split(', ').length;
         // show rsvp form
         $('#rsvp-form').show();
-        // show attendance options for each possible guest
+        // create attendance options and comment/diet fields for each possible guest and customize to the guest
         for (var i=0;i<numppl;i++) {
-          $('#att'+i).show();
-          $('input[name="name'+i+'"').val(respondingfor.split(', ')[i]);
+          buildform(i);
+          var guestname = respondingfor.split(', ')[i];
+          $('input[name="name'+i+'"').val(guestname);
+          $('#diet'+i+' div').html('Optional: Tell us something!<br>If '+guestname.split(' ')[0]+' <em>will</em> be attending, please let us know if they have any food allergies or dietary restrictions.');
+          $('#diet'+i).show();
         }
+        $('#rsvp-form form').append('<button type="submit">Submit</button>');
       }
     })
 
-
-
-// Show food restrictions section for each person if they click 'will attend'
-  $('.willNotAttend').click(function(e) {
-    var guestnum = $(this).attr('name').substr(-1);
-    $('#diet'+guestnum).hide();
-  });
-  $('.willAttend').click(function(e){
-    var guestnum = $(this).attr('name').substr(-1);
-    var guestname = $('#att'+guestnum+' input[name="name'+guestnum+'"').val().split(' ');
-    $('#diet'+guestnum+' div').html('Please let us know about food allergies or dietary restrictions for '+guestname[0]);
-    $('#diet'+guestnum).show();
-  })
+  // Function to build an RSVP section per guest
+  function buildform(i){
+    var att_section = $('<section></section>').attr('id', 'att'+i);
+    $('#rsvp-form form').append(att_section);
+    att_section.append('<input type="text" value="" name="name'+i+'" readonly><br>');
+    att_section.append('<input type="radio" name="att'+i+'" class="willAttend" value="willAttend" required>');
+    att_section.append('<label for="willAttend">Will attend</label><br>');
+    att_section.append('<input type="radio" name="att'+i+'" class="willNotAttend" value="willNotAttend" required>');
+    att_section.append('<label for="willNotAttend">Will not attend</label><br>');
+    var comment_section = $('<section></section').attr('id', 'diet'+i);
+    $('#rsvp-form form').append(comment_section);
+    comment_section.append('<div></div>');
+    comment_section.append('<textarea name="diet'+i+'" placeholder="Enter allergies/dietary restrictions, or anything else you want to tell us!" rows="4" cols="35"></textarea>');
+  }
 
 
 });
