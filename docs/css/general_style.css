@@ -154,13 +154,13 @@ nav a{
 		padding:0;
 		border-bottom:1px solid black;
 	}
-	header .name {font-size:1.6em;max-width:175px;max-height:50px;margin:5px 15px 5px 0px;float:right;}
+	header .name {font-size:1.6em;max-width:200px;max-height:50px;margin:5px 15px 5px 0px;float:right;}
 	.wrapper{padding-top:57px!important;}
 	.bignavlinks {display:none;}
     .navbar-bars{display:table!important;}
     .footernavlinks {font-size:0.5em;margin:1em;} .footernavlinks a {padding:0.2em;}
 }
-@media only screen and (max-width:250px){
+@media only screen and (max-width:270px){
 	header .name a {display:none;}
 	.navbar-bars{float:none;margin:10px auto;}
 	/*.navbar-bars{width:100%;text-align:center;margin:0.8em 0em;}

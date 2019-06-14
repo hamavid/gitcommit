@@ -4,6 +4,7 @@
 footer{position:absolute;bottom:0;}
 
 /* Styles for the code entry section */
+.info{width:600px;}
 .broken{font-size:0.7em;font-style:italic;}
 .broken a {color:#004242;}
 .highlight, .highlight a {color:red;font-size:1em;}
@@ -11,6 +12,7 @@ footer{position:absolute;bottom:0;}
   width:150px;max-width:80%;
   display:inline-block;margin:auto;
 }
+.inactivebutton{pointer-events:none;opacity:0.5;}
 .rsvp input[type=text], textarea {
   font-family:Montserrat, sans-serif;
   padding: 6px;
@@ -45,9 +47,12 @@ footer{position:absolute;bottom:0;}
 
 /* Styles for the RSVP form itself */
 #rsvp-form{display:none;}
-#rsvp-form section{display:block;text-align:left;margin:auto;max-width:300px;}
-#rsvp-form section, #rsvp-form textarea{font-family:Montserrat, sans-serif;}
-#rsvp-form textarea{font-size:0.8em;max-width:90%;margin-bottom:1.5em;}
+#rsvp-form section{}
+#rsvp-form section, #rsvp-form textarea{
+  font-family:Montserrat, sans-serif;display:block;
+  text-align:left;margin:auto;width:450px;max-width:90%;
+}
+#rsvp-form textarea{font-size:0.9em;margin-bottom:1.5em;}
 #rsvp-form section div {font-family:Montaga, serif;padding:1em 0 0.5em 0;}
 #rsvp-form section input[type=text] {background-color:inherit;color:inherit;}
 #rsvp-form button[type=submit] {
