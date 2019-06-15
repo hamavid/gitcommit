@@ -16,7 +16,7 @@ $(document).ready(function(){
   }
 
   // reactivate search button if text box is clicked
-  $('.search-container').click(function(e){
+  $('.search-container input').click(function(e){
     $('.search-container button, #indeed').removeClass('inactivebutton');
   });
 
@@ -28,6 +28,7 @@ $(document).ready(function(){
     $('#result').html('');
     $('section, button[type=submit]').remove();
     $('#rsvp-form').hide();
+    $('#notso').show();
     e.preventDefault();
     // deal with input text
     var input = $('#namesinput').val().toUpperCase();
@@ -69,14 +70,16 @@ $(document).ready(function(){
     $('#result').html('');
     $('#rsvp-form').hide();
     $('section, button[type=submit]').remove();
+    $('.search-container button, #indeed').removeClass('inactivebutton');
     $('.broken, .broken a').addClass('highlight');
   });
 
   // If 'yes that's me/us!' button is clicked, show appropriate number of will/won't attends and populate name field
   $('#indeed').click(function(){
-    // make this button and search button not do anything and empty out anything currently in the rsvp form
+    // make this button and search button not do anything, hide notso, and empty out rsvp form
     $('section, button[type=submit]').remove();
     $('.search-container button, #indeed').addClass('inactivebutton');
+    $('#notso').hide();
     // deal with input text
     var input = $('#namesinput').val().toUpperCase(); //uppercase it in case people were inconsistent
     // if there is no guestlist entry for this code, display error message
