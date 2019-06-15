@@ -1,19 +1,9 @@
 $(document).ready(function(){
 
+
 /* ///////////// Functions to find names and confirm which guests are responding //////////////*/
-  var names = {
-    "G5LJM": "Pam Swing, Marty Plotkin",
-    "LMJGU": "Anna Plotkin-Swing",
-    "WH3TH": "Ellen Davidson",
-    "N7UE2": "Jim Hammerman, Maggie Leary",
-    "A5UU4": "Aviva Hamavid, Jake Patterson",
-    "DMESP": "Henry Plotkin",
-    "G2SM3": "Helen Plotkin, Richard Schuldenfrei",
-    "HN28S": "Miriam Schuldenfrei, Manse Jennings",
-    "WZ86A": "Sarah Schuldenfrei, Matt Donaldson",
-    "LMZDZ": "Bradford Swing, Tim Harbold",
-    "X97ER": "Test Guest, Another Tester",
-  }
+  $.getJSON( "/data/testnames.json", function(names) {
+
 
   // reactivate search button if text box is clicked
   $('.search-container input').click(function(e){
@@ -40,26 +30,27 @@ $(document).ready(function(){
     }
   });
 
-  function getnames(inp) {
-    var respondingfor=names[inp];
-    var numppl = respondingfor.split(', ').length;
-    $('#result').html('Looks like you are responding for: <br><p id="respondents">' + parsenames_pretty(respondingfor) + '</p>');
-    // populate yes button depending on num ppl
-    if (numppl > 1) {$('#indeed').html("Yes, that's us!");}
-    else {$('#indeed').html("Yes, that's me!");}
-    // show confirmation buttons
-    $('#confirm-buttons').css('display','block');
-  };
 
-  // function to add ands where appropriate in name lists
-  function parsenames_pretty(namelist) {
-    var lastcomma=namelist.lastIndexOf(', ', namelist.length);
-    if (lastcomma > 0) {
-      var newnames = namelist.substr(0,lastcomma) + ' and' + namelist.substr(lastcomma+1);
-      return newnames;
+    function getnames(inp) {
+      var respondingfor=names[inp];
+      var numppl = respondingfor.split(', ').length;
+      $('#result').html('Looks like you are responding for: <br><p id="respondents">' + parsenames_pretty(respondingfor) + '</p>');
+      // populate yes button depending on num ppl
+      if (numppl > 1) {$('#indeed').html("Yes, that's us!");}
+      else {$('#indeed').html("Yes, that's me!");}
+      // show confirmation buttons
+      $('#confirm-buttons').css('display','block');
+    };
+
+    // function to add ands where appropriate in name lists
+    function parsenames_pretty(namelist) {
+      var lastcomma=namelist.lastIndexOf(', ', namelist.length);
+      if (lastcomma > 0) {
+        var newnames = namelist.substr(0,lastcomma) + ' and' + namelist.substr(lastcomma+1);
+        return newnames;
+      }
+      else {return namelist;}
     }
-    else {return namelist;}
-  }
 
 
 /* ///////////// Functions to toggle sections depending on num guests and responses for each guest //////////////*/
@@ -104,22 +95,32 @@ $(document).ready(function(){
       }
       $('#rsvp-form form').append('<button type="submit">Submit</button>');
     }
+  });
+
+
+    // Function to build an RSVP section per guest
+    function buildform(i){
+      var att_section = $('<section></section>').attr('id', 'att'+i);
+      $('#rsvp-form form').append(att_section);
+      att_section.append('<input type="text" value="" name="name'+i+'" readonly><br>');
+      att_section.append('<label><input type="radio" name="att'+i+'" class="willAttend" value="willAttend" required>Will attend</label><br>');
+      att_section.append('<label><input type="radio" name="att'+i+'" class="willNotAttend" value="willNotAttend" required>Will not attend</label><br>');
+      var comment_section = $('<section></section').attr('id', 'diet'+i);
+      $('#rsvp-form form').append(comment_section);
+      comment_section.append('<div></div>');
+      comment_section.append('<textarea name="diet'+i+'" placeholder="Enter allergies/dietary restrictions, or anything else you want to tell us!" rows="4"></textarea>');
+    }
+    
   })
-
-  // Function to build an RSVP section per guest
-  function buildform(i){
-    var att_section = $('<section></section>').attr('id', 'att'+i);
-    $('#rsvp-form form').append(att_section);
-    att_section.append('<input type="text" value="" name="name'+i+'" readonly><br>');
-    att_section.append('<input type="radio" name="att'+i+'" class="willAttend" value="willAttend" required>');
-    att_section.append('<label for="willAttend">Will attend</label><br>');
-    att_section.append('<input type="radio" name="att'+i+'" class="willNotAttend" value="willNotAttend" required>');
-    att_section.append('<label for="willNotAttend">Will not attend</label><br>');
-    var comment_section = $('<section></section').attr('id', 'diet'+i);
-    $('#rsvp-form form').append(comment_section);
-    comment_section.append('<div></div>');
-    comment_section.append('<textarea name="diet'+i+'" placeholder="Enter allergies/dietary restrictions, or anything else you want to tell us!" rows="4"></textarea>');
-  }
-
+  .fail(function(errorObject) {
+    console.error(errorObject);
+  });
 
 });
+  
+
+
+
+
+
+
