@@ -1,3 +1,4 @@
+.what-select{font-weight:bolder;font-style:italic;}
 .sightseeing-sustenance{text-decoration:none;background-color:#5cdede;padding:0.5em;border:2px solid black;}
 /*.info{display:inline-block;width:400px;max-width:90%;padding:1em;margin:1em 0.5em;}*/
 
@@ -43,9 +44,10 @@
 }
 
 .text {
-  background-color: #4CAF50;
+  background-color: #00b3b3;
   color: black;
   font-size: 16px;
   padding: 30px 32px;
   width: 125%;
 }
+

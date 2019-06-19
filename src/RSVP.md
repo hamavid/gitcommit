@@ -6,7 +6,7 @@ title: RSVP
 <h1>RSVP</h1>
 
 
-<div class="rsvp info">
+<div class="rsvp info fadeygreen">
 	<p>Please enter the 5-character code from your invitation to unlock your RSVP form.</p>
 	<p class='broken'>Lost your code or this isn't working? <a href='../rsvp-alt'>Click here instead.</a></p>
 	<div class="search-container">

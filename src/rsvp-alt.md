@@ -3,7 +3,7 @@ layout: page.html
 outdirs: '..'
 title: rsvp-alt
 ---
-<div class='info'>
+<div class='info fadeygreen'>
 <p>So the form isn't working? No problem, you can just email us!</p>
 <p>Email address: itsawedding.fyi@gmail.com</p>
 <p>Please include:</p>

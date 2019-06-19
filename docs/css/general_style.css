@@ -38,13 +38,11 @@ body::after{
 	border-top:1px solid black;
 	padding-bottom:5em; /* so it doesn't hit the footer */
 }
-.wrapper div, h1{
+.wrapper div p{margin-bottom:1.3em;line-height:1.3em;}
+.fadeygreen, .footernavlinks a, .name a, h1{
 	vertical-align: top;
 	background-color:rgba(0,204,204,0.7);
 	border-radius: 1em;
-}
-.wrapper div p{margin-bottom:1.3em;line-height:1.3em;}
-.wrapper div, .footernavlinks a, .name a, h1{
 	-webkit-box-shadow:	10px 10px 10px rgba(0,204,204,.7), -10px -10px 10px rgba(0,204,204,.7);
        -moz-box-shadow: 10px 10px 10px rgba(0,204,204,.7), -10px -10px 10px rgba(0,204,204,.7);		 
 	        box-shadow:	10px 10px 10px rgba(0,204,204,.7), -10px -10px 10px rgba(0,204,204,.7);
