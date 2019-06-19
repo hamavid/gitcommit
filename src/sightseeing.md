@@ -50,7 +50,7 @@ title: Sightseeing
 </div>
 
 <div class='info fadeygreen'>
-	<h2>rattlesnake ledge / mailbox peak</h2>
+	<h2>rattlesnake ledge /<br> mailbox peak</h2>
 		<p>Two Seattle hiking classics. <a href="https://www.wta.org/go-hiking/hikes/rattle-snake-ledge" target="_blank">Rattlesnake Ledge</a> is a shorter (4 miles) but pretty steep (1,160 ft elevation gain) hike, about a 45-minute drive from Seattle. Amazing views from the top. <a href="https://www.wta.org/go-hiking/hikes/mailbox-peak" target="_blank">Mailbox Peak</a> is a longer (9.6 miles) and steeper (4,000 ft elevation gain) hike that will definitely make you work up a sweat. King County Metro's <a href="https://kingcounty.gov/depts/transportation/metro/schedules-maps/trailhead-issaquah-alps.aspx" target="_blank">Trailhead Direct</a> offers a <a href="https://www.kingcounty.gov/depts/transportation/metro/schedules-maps/trailhead-mailbox-peak.aspx" target="_blank">shuttle</a> to Mailbox Peak on weekends from Issaquah through 10/27.</p>
 </div>
 
@@ -144,7 +144,7 @@ title: Sightseeing
 </table>
 
 <div class='info fadeygreen'>
-	<h2>Fresh Flours Bakery & Cafe</h2>
+	<h2>Fresh Flours<br>Bakery & Cafe</h2>
 		<p><a href="http://www.freshfloursseattle.com/" target="_blank">Fresh Flours</a> has a few locations in Seattle - Phinney Ridge, Beacon Hill, West Seattle and South Lake Union. You can't really go wrong with any of their pastries, but please don't leave without trying their GF Double Chocolate cookie. Also, check out their happy hour for 50% off pastries.</p>
 </div>
 
