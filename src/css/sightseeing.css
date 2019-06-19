@@ -1,8 +1,53 @@
 .what-select{font-weight:bolder;font-style:italic;}
 .sightseeing-sustenance{text-decoration:none;background-color:#5cdede;padding:0.5em;border:2px solid black;}
+/*.info{display:inline-block;width:400px;max-width:90%;padding:1em;margin:1em 0.5em;}*/
+
 .center {
   margin: auto;
   width: 50%;
   border: none;
   padding: 10px;
 }
+
+.container {
+  position: relative;
+  width: 400px;
+  max-width:90%;
+}
+
+.image {
+  opacity: 1;
+  display: inline-block;
+  width:100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  transform: translate(-45%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 0.7;
+}
+
+.text {
+  background-color: #00b3b3;
+  color: black;
+  font-size: 16px;
+  padding: 30px 32px;
+  width: 125%;
+}
+
