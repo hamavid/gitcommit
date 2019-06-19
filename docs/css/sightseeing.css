@@ -1,3 +1,4 @@
+.what-select{font-weight:bolder;font-style:italic;}
 .sightseeing-sustenance{text-decoration:none;background-color:#5cdede;padding:0.5em;border:2px solid black;}
 .center {
   margin: auto;
@@ -5,6 +6,7 @@
   border: none;
   padding: 10px;
 }
+<<<<<<< HEAD
 
 .photobook{width:650px;max-width:100%;margin:1.5em auto 1.5em auto;text-align:center;}
 .photobook div{width:270px;max-width:90%;margin:0.2em;position:relative;text-align:center;display:inline-block;}
@@ -75,3 +77,5 @@
 
 /*
 .info{display:inline-block;width:400px;max-width:90%;padding:1em;margin:1em 0.5em;}*/
+=======
+>>>>>>> c3091a90a7d36dab241d0939200311fea738c32f

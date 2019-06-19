@@ -1,5 +1,12 @@
 $(document).ready(function(){
 
+/* ----- what pix do we have ------ */
+  function checkpix() {
+    thumbs = $('#grid').find('div');
+    slides = $('#slideshow').find('figure');
+    return [thumbs,slides];
+  }
+
 /* ---------- THUMBNAILS -------------- */
  // function to show all thumbs that fit the selected filter (w dummy image)
   /*showthumbs(); // do this on page load
@@ -25,7 +32,7 @@ $(document).ready(function(){
 /* ----------- SLIDESHOW ----------- */
 // Load a given slide image (as opposed to the blank dummy image)
   lazyslides = function(index) {
-      var img = checkfilter()[1].eq(index).find('img');
+      var img = checkpix()[1].eq(index).find('img');
       if (!img.data("shown")) {
           var dataSrc = img.data("src");
           img.attr("src", dataSrc);
@@ -36,16 +43,16 @@ $(document).ready(function(){
 
 // Function to start loading images to left and right of the current slide and continue outwards
   symmetry = function(index) {
-    for (i=1; i<(checkfilter()[1].length+1)/2; i++) {
-      if (i==1) {var down = index;} else{var down = (index-i+checkfilter()[1].length) % checkfilter()[1].length;}
-      var up = (index+i) % checkfilter()[1].length;
-      checkfilter()[1].eq(down).find('img').one('load', function() {
+    for (i=1; i<(checkpix()[1].length+1)/2; i++) {
+      if (i==1) {var down = index;} else{var down = (index-i+checkpix()[1].length) % checkpix()[1].length;}
+      var up = (index+i) % checkpix()[1].length;
+      checkpix()[1].eq(down).find('img').one('load', function() {
         lazyslides(down);
       })
       .each(function () {
         if(this.complete) $(this).trigger('load');
       });
-      checkfilter()[1].eq(up).find('img').one('load', function() {
+      checkpix()[1].eq(up).find('img').one('load', function() {
         lazyslides(up);
       })
       .each(function () {
@@ -57,9 +64,9 @@ $(document).ready(function(){
 
 // Open and close slideshow at the correct image when various elements are clicked
   $('#grid div').click(function() {
-    showDivs(checkfilter()[0].index(this)+1);
+    showDivs(checkpix()[0].index(this)+1);
     // set off function to load actual images to left and right of this slide
-    symmetry(checkfilter()[0].index(this));
+    symmetry(checkpix()[0].index(this));
   });
   $('.topband, .bottomband, .closebtn').click(function() {
     document.getElementById("slideshow").style.display = "none";
@@ -78,7 +85,7 @@ $(document).ready(function(){
   // determine which slide toshow
     var i;
     slideIndex = n;
-    var x = checkfilter()[1];
+    var x = checkpix()[1];
     if (n > x.length) {slideIndex = n % x.length}
     if (n < 1) {slideIndex = x.length};
   // show/hide relevant elements
@@ -86,34 +93,7 @@ $(document).ready(function(){
     $('figure').css('display','none'); // hide all figures
     x[slideIndex-1].style.display = "block"; // just show the one we want to show
     lazyslides(slideIndex-1); // load the actual image for this slide if needed
-  // fill in filter information
-    if (checkfilter()[2] != "All") {
-      $('#slidefilter').css('display','inline-block');
-      $('#tellme').html('Filtered by: '+checkfilter()[2]);
-    }
-    else {
-      $('#slidefilter').css('display','none');
-      $('#tellme').html("");
-    }
   }
-
-
-// extract window width and set overlay width accordingly depending on sidebar visibility
-  function set_overlay_width() {
-    var windowwidth=window.innerWidth || 
-    document.documentElement.clientWidth || 
-    document.body.clientWidth;
-    //var windowheight=document.documentElement.clientHeight;
-    //var scrollheight=document.documentElement.scrollHeight;
-    /* subtracting 15 for scroll bar (17 was somehow too much) */
-    if (windowwidth>992) {
-      $('.overlay-content').css('width',windowwidth-180);
-    } else {
-      $('.overlay-content').css('width',windowwidth);
-    }  
-  }
-  $(window).bind('resize',set_overlay_width); 
-  set_overlay_width();
 
 
 // highlight left and right scroll arrows when hovering on diff areas of screen
@@ -146,8 +126,5 @@ $(document).ready(function(){
         $(this).find('span:first').slideToggle();
       });
     });
-  // filter info 
-    $('#slidefilter').click(function() {
-      $('#slidefilter i').toggleClass("fa-angle-double-down fa-angle-double-up");
-      $('#tellme').slideToggle();
-    });
+
+});
