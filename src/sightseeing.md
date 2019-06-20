@@ -4,22 +4,23 @@ outdirs: '..'
 title: Sightseeing
 ---
 
+
 <!-- SIGTHSEEING -->
 	
 <h1 id="sightseeing">Sightseeing</h1>
-<table class="center">
-	<tr>
-		<th>
+<div class="center">
+	<div class="row">
+		<div class="column">
 			<h5><a href='#sightseeing' class='sightseeing-sustenance'>Sightseeing</a></h5>
-		</th>
-		<th>
-			<h5><a href='#coffee' class='sightseeing-sustenance'>Coffee Shops / Bakeries</a></h5>
-		</th>
-		<th>
+		</div>
+		<div class="column">
+			<h5 class="nobreak"><a href='#coffee' class='sightseeing-sustenance'>Coffee Shops / Bakeries</a></h5>
+		</div>
+		<div class="column">
 			<h5><a href='#restaurants' class='sightseeing-sustenance'>Restaurants</a></h5>
-		</th>
-	</tr>
-</table>
+		</div>
+	</div>
+</div>
 
 <div class="container info fadeygreen">
 	<h2>space needle /<br>seattle center</h2>
@@ -103,19 +104,19 @@ title: Sightseeing
 
 <!-- COFFEE SHOPS / BAKERIES -->
 <h1 id="coffee">Coffe Shops / Bakeries</h1>
-<table class="center">
-	<tr>
-		<th>
+<div class="center">
+	<div class="row">
+		<div class="column">
 			<h5><a href='#sightseeing' class='sightseeing-sustenance'>Sightseeing</a></h5>
-		</th>
-		<th>
-			<h5><a href='#coffee' class='sightseeing-sustenance'>Coffee Shops / Bakeries</a></h5>
-		</th>
-		<th>
+		</div>
+		<div class="column">
+			<h5 class="nobreak"><a href='#coffee' class='sightseeing-sustenance'>Coffee Shops / Bakeries</a></h5>
+		</div>
+		<div class="column">
 			<h5><a href='#restaurants' class='sightseeing-sustenance'>Restaurants</a></h5>
-		</th>
-	</tr>
-</table>
+		</div>
+	</div>
+</div>
 
 <div class='container info fadeygreen'>
 	<h2>Fresh Flours<br>Bakery & Cafe</h2>
@@ -170,19 +171,19 @@ title: Sightseeing
 
 <!-- RESTAURANTS -->
 <h1 id="restaurants">Restaurants</h1>
-<table class="center">
-	<tr>
-		<th>
+<div class="center">
+	<div class="row">
+		<div class="column">
 			<h5><a href='#sightseeing' class='sightseeing-sustenance'>Sightseeing</a></h5>
-		</th>
-		<th>
-			<h5><a href='#coffee' class='sightseeing-sustenance'>Coffee Shops / Bakeries</a></h5>
-		</th>
-		<th>
+		</div>
+		<div class="column">
+			<h5 class="nobreak"><a href='#coffee' class='sightseeing-sustenance'>Coffee Shops / Bakeries</a></h5>
+		</div>
+		<div class="column">
 			<h5><a href='#restaurants' class='sightseeing-sustenance'>Restaurants</a></h5>
-		</th>
-	</tr>
-</table>
+		</div>
+	</div>
+</div>
 
 <div class='container info fadeygreen'>
 	<h2>Paseo Fremont</h2>
