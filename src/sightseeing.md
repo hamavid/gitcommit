@@ -24,7 +24,7 @@ title: Sightseeing
 
 
 <div class="container info fadeygreen">
-	<h2>space needle / seattle center</h2>
+	<h2>space needle /<br>seattle center</h2>
 	<img src="/images/space_needle.jpeg" alt="space_needle" class="image">
 	  <div class="middle">
 	    <div class="text">
@@ -43,39 +43,68 @@ title: Sightseeing
 	  	 </div>
 </div>
 
-<div class='info fadeygreen'>
+<div class='container info fadeygreen'>
 	<h2>pike place market</h2>
-		<p>You'd have to get up on the earlier side to see them throw the fish, but even if you don't, <a href="http://pikeplacemarket.org/" target="_blank">Pike Place Market</a> is still worth a visit. You can find just about anything in there, from arts and crafts, to food, flowers, postcards, and <a href="https://ellenos.com/" target="_blank">Ellenos yogurt</a> (keep an eye out for free samples!). Pike Place Market is also where you can find the infamous <a href="https://en.wikipedia.org/wiki/Gum_Wall" target="_blank">Gum Wall</a>, which is, well, 
-		a wall full of gum. Yum.</p>
+	<img src="/images/pike_place.jpg" alt="pike_place_market" class="image">
+		<div class="middle">
+			<div class="text">
+				<p>You'd have to get up on the earlier side to see them throw the fish, but even if you don't, <a href="http://pikeplacemarket.org/" target="_blank">Pike Place Market</a> is still worth a visit. You can find just about anything in there, from arts and crafts, to food, flowers, postcards, and <a href="https://ellenos.com/" target="_blank">Ellenos yogurt</a> (keep an eye out for free samples!). Pike Place Market is also where you can find the infamous <a href="https://en.wikipedia.org/wiki/Gum_Wall" target="_blank">Gum Wall</a>, which is, well, a wall full of gum. Yum.</p>
+				</div>
+	  	 </div>
 </div>
 
-<div class='info fadeygreen'>
-	<h2>rattlesnake ledge /<br> mailbox peak</h2>
-		<p>Two Seattle hiking classics. <a href="https://www.wta.org/go-hiking/hikes/rattle-snake-ledge" target="_blank">Rattlesnake Ledge</a> is a shorter (4 miles) but pretty steep (1,160 ft elevation gain) hike, about a 45-minute drive from Seattle. Amazing views from the top. <a href="https://www.wta.org/go-hiking/hikes/mailbox-peak" target="_blank">Mailbox Peak</a> is a longer (9.6 miles) and steeper (4,000 ft elevation gain) hike that will definitely make you work up a sweat. King County Metro's <a href="https://kingcounty.gov/depts/transportation/metro/schedules-maps/trailhead-issaquah-alps.aspx" target="_blank">Trailhead Direct</a> offers a <a href="https://www.kingcounty.gov/depts/transportation/metro/schedules-maps/trailhead-mailbox-peak.aspx" target="_blank">shuttle</a> to Mailbox Peak on weekends from Issaquah through 10/27.</p>
+<div class='container info fadeygreen'>
+	<h2>hiking with a view</h2>
+	<img src="/images/mailbox_peak.jpg" alt="mailbox_peak" class="image">
+		<div class="middle">
+			<div class="text">
+				<p>Two Seattle hiking classics are Rattlesnake Ledge and Mailbox Peak. <a href="https://www.wta.org/go-hiking/hikes/rattle-snake-ledge" target="_blank">Rattlesnake Ledge</a> is a shorter (4 miles) but pretty steep (1,160 ft elevation gain) hike, about a 45-minute drive from Seattle. Amazing views from the top. <a href="https://www.wta.org/go-hiking/hikes/mailbox-peak" target="_blank">Mailbox Peak</a> is a longer (9.6 miles) and steeper (4,000 ft elevation gain) hike that will definitely make you work up a sweat. King County Metro's <a href="https://kingcounty.gov/depts/transportation/metro/schedules-maps/trailhead-issaquah-alps.aspx" target="_blank">Trailhead Direct</a> offers a <a href="https://www.kingcounty.gov/depts/transportation/metro/schedules-maps/trailhead-mailbox-peak.aspx" target="_blank">shuttle</a> to Mailbox Peak on weekends from Issaquah through 10/27.</p>
+			</div>
+	 </div>
 </div>
 
 
 
-<div class='info fadeygreen'>
+<div class='container info fadeygreen'>
 	<h2>sunday sailings</h2>
-		<p><a href="https://www.cwb.org/public-sail" target="_blank">The Center for Wooden Boats</a> in South Lake Union takes the public out for free Sunday sailings on Lake Union all year round. Sign-up starts at 10 a.m., but CWB recommends getting there on the earlier side to claim a spot.</p>
+	<img src="/images/sunday_sail.jpeg" alt="sunday_sail" class="image">
+		<div class="middle">
+			<div class="text">
+				<p><a href="https://www.cwb.org/public-sail" target="_blank">The Center for Wooden Boats</a> in South Lake Union takes the public out for free Sunday sailings on Lake Union all year round. Sign-up starts at 10 a.m., but CWB recommends getting there on the earlier side to claim a spot.</p>
+			</div>
+	 	</div>
 </div>
 
-<div class='info fadeygreen'>
+<div class='container info fadeygreen'>
 	<h2>axe throwing</h2>
-		<p>There's got to be a first for everything, right? Axe throwing sounds interesting, so please check it out and let us know how it goes. Be safe. <a href="https://bladeandtimber.com/" target="_blank">Blade & Timber</a> is located in Seattle's Capitol Hill neighborhood.</p>
+	<img src="/images/blade_timber.jpg" alt="blade_timber" class="image">
+		<div class="middle">
+			<div class="text">
+				<p>There's got to be a first for everything, right? Axe throwing sounds interesting, so please check it out and let us know how it goes. Be safe. <a href="https://bladeandtimber.com/" target="_blank">Blade & Timber</a> is located in Seattle's Capitol Hill neighborhood.</p>
+			</div>
+	 	</div>
 </div>
 
 
 
-<div class='info fadeygreen'>
+<div class='container info fadeygreen'>
 	<h2>museums</h2>
-		<p>For all you artsy folks, there are a ton of museums in Seattle to cater to all (well, most) tastes. <a href="http://www.seattleartmuseum.org/" target="_blank">Seattle Art Museum</a>, <a href="http://www.seattleartmuseum.org/visit/asian-art-museum" target="_blank">Asian Art Museum</a> (has been closed for renovation, but should be open in the fall!), <a href="https://henryart.org/" target="_blank">Henry Art Gallery</a>, and the <a href="https://www.burkemuseum.org/" target="_blank">Burke museum</a> are only a few we can think of. Check out <a href="https://www.thestranger.com/visitors-guide/2017/05/10/25131756/the-strangers-guide-to-the-best-places-to-see-art-in-seattle" target="_blank">The Stranger's</a> guide for more suggestions!</p>
+	<img src="/images/sam.jpg" alt="seattle_art_museum" class="image">
+		<div class="middle">
+			<div class="text">
+				<p>For all you artsy folks, there are a ton of museums in Seattle to cater to all (well, most) tastes. <a href="http://www.seattleartmuseum.org/" target="_blank">Seattle Art Museum</a>, <a href="http://www.seattleartmuseum.org/visit/asian-art-museum" target="_blank">Asian Art Museum</a> (has been closed for renovation, but should be open in the fall!), <a href="https://henryart.org/" target="_blank">Henry Art Gallery</a>, and the <a href="https://www.burkemuseum.org/" target="_blank">Burke museum</a> are only a few we can think of. Check out <a href="https://www.thestranger.com/visitors-guide/2017/05/10/25131756/the-strangers-guide-to-the-best-places-to-see-art-in-seattle" target="_blank">The Stranger's</a> guide for more suggestions!</p>
+			</div>
+	 	</div>
 </div>
 
-<div class='info fadeygreen'>
+<div class='container info fadeygreen'>
 	<h2>fremont troll</h2>
-		<p>If you're curious about what a troll under a bridge looks like, go check out the <a href="https://www.google.com/maps/place/Fremont+Troll/@47.651246,-122.3498699,17z/data=!3m1!4b1!4m5!3m4!1s0x5490150128a784bd:0x9ddb04f1ce7199df!8m2!3d47.651246!4d-122.3476812" target="_blank">Fremont Troll</a> under the Aurora bridge. This massive sculpture was made in <a href="https://en.wikipedia.org/wiki/Fremont_Troll" target="_blank">1990 by local artists</a>.</p>
+	<img src="/images/fremont_troll.jpg" alt="fremont_troll" class="image">
+		<div class="middle">
+			<div class="text">
+				<p>If you're curious about what a troll under a bridge looks like, go check out the <a href="https://www.google.com/maps/place/Fremont+Troll/@47.651246,-122.3498699,17z/data=!3m1!4b1!4m5!3m4!1s0x5490150128a784bd:0x9ddb04f1ce7199df!8m2!3d47.651246!4d-122.3476812" target="_blank">Fremont Troll</a> under the Aurora bridge. This massive sculpture was made in <a href="https://en.wikipedia.org/wiki/Fremont_Troll" target="_blank">1990 by local artists</a>.</p>
+			</div>
+	 	</div>
 </div>
 
 <!-- RESTAURANTS -->
