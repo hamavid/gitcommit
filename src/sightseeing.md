@@ -103,7 +103,7 @@ title: Sightseeing
 </div>
 
 <!-- COFFEE SHOPS / BAKERIES -->
-<h1 id="coffee">Coffe Shops / Bakeries</h1>
+<h1 id="coffee">Coffee Shops / Bakeries</h1>
 <div class="center">
 	<div class="row">
 		<div class="column">
@@ -119,7 +119,7 @@ title: Sightseeing
 </div>
 
 <div class='container info fadeygreen'>
-	<h2>Fresh Flours<br>Bakery & Cafe</h2>
+	<h2>Fresh Flours<br>Bakery &amp; Cafe</h2>
 	<img src="/images/freshflours.jpg" alt="Fresh Flours Bakery and Cafe" class="image">
 	<div class="middle">
 		<div class="text">
