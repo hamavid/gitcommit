@@ -1,7 +1,7 @@
 ---
 layout: page.html
 outdirs: '..'
-title: RSVP
+title: RSVP-page
 ---
 <h1>RSVP</h1>
 
