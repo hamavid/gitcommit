@@ -27,7 +27,7 @@ title: Sightseeing
 	<img src="/images/space_needle.jpeg" alt="space_needle" class="image">
 	<div class="middle">
 		<div class="text">
-			<p>Arguably the best view of Seattle can be taken in from the iconic <a href="https://www.spaceneedle.com/" target="_blank">Space Needle</a>. Seattle Center is also host to other Seattle activities, such as the <a href="https://www.pacificsciencecenter.org/" target="_blank">Pacific Science Center</a> (where they also host laser shows at the <a href="https://www.pacificsciencecenter.org/laser-dome/" target="_blank">Laser Dome)</a>, <a href="https://www.chihulygardenandglass.com/" target="_blank">Chihuly Garden and Glass</a>, <a href="https://www.mopop.org/" target="_blank">Museum of Pop Culture</a> (MoPOP, formerly known as the EMP) and the <a href="https://www.seattlemonorail.com/" target="_blank">Monorail</a> (which won't take you very far, but it's still a fun ride).</p>
+			<p>Arguably the best view of Seattle can be taken in from the iconic <a href="https://www.spaceneedle.com/" target="_blank">Space Needle</a>. Seattle Center is also host to other classic attractions, such as the <a href="https://www.pacificsciencecenter.org/" target="_blank">Pacific Science Center</a> (where they also host laser shows at the <a href="https://www.pacificsciencecenter.org/laser-dome/" target="_blank">Laser Dome)</a>, <a href="https://www.chihulygardenandglass.com/" target="_blank">Chihuly Garden and Glass</a>, <a href="https://www.mopop.org/" target="_blank">Museum of Pop Culture</a> (MoPOP, formerly known as the EMP) and the <a href="https://www.seattlemonorail.com/" target="_blank">Monorail</a> (which won't take you very far, but it's still a fun ride).</p>
 	    </div>
 	</div>
 </div>
@@ -37,7 +37,7 @@ title: Sightseeing
 	<img src="/images/ballard_locks.jpg" alt="ballard_locks" class="image">
 	<div class="middle">
 		<div class="text">
-			<p>Visiting the <a href="http://www.myballard.com/ballard-locks-seattle/" target="_blank">Ballard Locks</a> and watching the boats go back and forth between the Puget Sound and Lake Union/Lake Washington, is a pretty cool sight. There's also a nice botanical garden right next to the locks. Another amazing park, located by Lake Washington, is the <a href="https://botanicgardens.uw.edu/washington-park-arboretum/" target="_blank">Washington Park Arboretum</a>. Take a <a href="https://botanicgardens.uw.edu/washington-park-arboretum/activities/self-guided-tours/" target="_blank">self-guided tour</a> and go explore as much as you can of the 230 acres.</p>
+			<p>Visiting the <a href="http://www.myballard.com/ballard-locks-seattle/" target="_blank">Ballard Locks</a> and watching the boats go back and forth between the Puget Sound and Lake Union/Lake Washington is a pretty cool sight. There's also a nice botanical garden right next to the locks. Another amazing park, located by Lake Washington, is the <a href="https://botanicgardens.uw.edu/washington-park-arboretum/" target="_blank">Washington Park Arboretum</a>. Take a <a href="https://botanicgardens.uw.edu/washington-park-arboretum/activities/self-guided-tours/" target="_blank">self-guided tour</a> and go explore as much as you can of the 230 acres.</p>
 		</div>
 	</div>
 </div>
@@ -87,7 +87,7 @@ title: Sightseeing
 	<img src="/images/sam.jpg" alt="seattle_art_museum" class="image">
 	<div class="middle">
 		<div class="text">
-			<p>For all you artsy folks, there are a ton of museums in Seattle to cater to all (well, most) tastes. <a href="http://www.seattleartmuseum.org/" target="_blank">Seattle Art Museum</a>, <a href="http://www.seattleartmuseum.org/visit/asian-art-museum" target="_blank">Asian Art Museum</a> (has been closed for renovation, but should be open in the fall!), <a href="https://henryart.org/" target="_blank">Henry Art Gallery</a>, and the <a href="https://www.burkemuseum.org/" target="_blank">Burke museum</a> are only a few we can think of. Check out <a href="https://www.thestranger.com/visitors-guide/2017/05/10/25131756/the-strangers-guide-to-the-best-places-to-see-art-in-seattle" target="_blank">The Stranger's</a> guide for more suggestions!</p>
+			<p>There are a ton of museums in Seattle to cater to all (well, most) tastes. <a href="http://www.seattleartmuseum.org/" target="_blank">Seattle Art Museum</a>, <a href="http://www.seattleartmuseum.org/visit/asian-art-museum" target="_blank">Asian Art Museum</a> (has been closed for renovation, but should be open in the fall!), <a href="https://henryart.org/" target="_blank">Henry Art Gallery</a>, and the <a href="https://www.burkemuseum.org/" target="_blank">Burke museum</a> are only a few we can think of. Check out <a href="https://www.thestranger.com/visitors-guide/2017/05/10/25131756/the-strangers-guide-to-the-best-places-to-see-art-in-seattle" target="_blank">The Stranger's</a> guide for more suggestions!</p>
 		</div>
 	</div>
 </div>
