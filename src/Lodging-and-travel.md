@@ -1,7 +1,9 @@
 ---
 layout: page.html
 outdirs: '..'
-title: Lodging-and-travel
+title: "Lodging and travel"
+cssfile: accommodation
+jsfile: accommodation
 ---
 <h1>Lodging</h1>
 <div class='info fadeygreen'>

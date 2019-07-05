@@ -2,6 +2,8 @@
 layout: page.html
 outdirs: '..'
 title: Cute-shit
+cssfile: cute
+jsfile: cute
 ---
 <div class='fadeygreen'>We have heard that you are supposed to put cute photos of yourselves on your wedding website, so here is some of that plus some other stuff that we think is cute. (Click any thumbnail to see full-sized images/videos.)</div>
 

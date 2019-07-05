@@ -1,7 +1,9 @@
 ---
 layout: page.html
 outdirs: '..'
-title: rsvp-alt
+title: RSVP alternative
+cssfile: rsvp-alt
+jsfile: rsvp-alt
 ---
 <div class='info fadeygreen'>
 <p>So the form isn't working? No problem, you can just email us!</p>

@@ -2,6 +2,8 @@
 layout: page.html
 outdirs: '..'
 title: Wedding
+cssfile: wedding
+jsfile: wedding
 ---
 <div class='wedding clearfix fadeygreen'>
 <h2>wedding</h2>

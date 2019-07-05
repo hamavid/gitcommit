@@ -2,6 +2,8 @@
 layout: page.html
 outdirs: '..'
 title: Sightseeing
+cssfile: sightseeing
+jsfile: sightseeing
 ---
 
 
