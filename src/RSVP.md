@@ -23,6 +23,7 @@ jsfile: rsvp
 
 	<div id="rsvp-form">
 		<form method="POST" action="https://formspree.io/itsawedding.fyi@gmail.com">
+		<input id='subjwho' type="hidden" name="_subject" value="" />
 		<!-- code builds attendance and optional diet/comment sections for each guest in party-->
 	    </form>
 	</div>

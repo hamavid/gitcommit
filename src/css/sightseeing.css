@@ -74,5 +74,6 @@ h1{max-width:500px;}
   .column {
     width: 100%;
   }
+  .anchor:first-of-type{height:80px;}
 }
 

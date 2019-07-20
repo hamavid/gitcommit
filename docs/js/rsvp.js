@@ -88,12 +88,15 @@ $(document).ready(function(){
         var numppl = respondingfor.split(', ').length;
         // show rsvp form
         $('#rsvp-form').show();
+        // enter names as the subject line for the email
+        $('#subjwho').val('RSVP: '+respondingfor);
         // create attendance options and comment/diet fields for each possible guest and customize to the guest
         for (var i=0;i<numppl;i++) {
           buildform(i);
           var guestname = respondingfor.split(', ')[i];
           $('input[name="name'+i+'"]').val(guestname);
           //$('#diet'+i+' div').html('Optional: Tell us something!<br>If '+guestname.split(' ')[0]+' <em>will</em> be attending, please let us know if they have any food allergies or dietary restrictions.');
+          $('#email'+i+' div').html('Optional: Enter your email address (we will send you a confirmation email and maybe some other info)');
           $('#diet'+i+' div').html('Optional: Please let us know about any food allergies or dietary restrictions for ' + guestname.split(' ')[0] + ', or anything else you want to tell us!');
           $('#diet'+i).show();
         }
@@ -106,9 +109,14 @@ $(document).ready(function(){
       function buildform(i){
         var att_section = $('<section></section>').attr('id', 'att'+i);
         $('#rsvp-form form').append(att_section);
-        att_section.append('<input type="text" value="" name="name'+i+'" readonly><br>');
-        att_section.append('<label><input type="radio" name="att'+i+'" class="willAttend" value="willAttend" required>Will attend</label><br>');
-        att_section.append('<label><input type="radio" name="att'+i+'" class="willNotAttend" value="willNotAttend" required>Will not attend</label><br>');
+        att_section.append('<input type="text" value="" name="name'+i+'" readonly /><br>');
+        att_section.append('<label><input type="radio" name="att'+i+'" class="willAttend" value="willAttend" required />Will attend</label><br>');
+        att_section.append('<label><input type="radio" name="att'+i+'" class="willNotAttend" value="willNotAttend" required />Will not attend</label><br>');
+        var email_section = $('<section></section>').attr('id', 'email'+i);
+        $('#rsvp-form form').append(email_section);
+        email_section.append('<div></div>');
+        email_section.append('<input type="email" name="email'+i+'" placeholder="Your email" />');
+        //email_section.append('<input type="text" name="_replyto" placeholder="Your email" />');
         var comment_section = $('<section></section').attr('id', 'diet'+i);
         $('#rsvp-form form').append(comment_section);
         comment_section.append('<div></div>');
