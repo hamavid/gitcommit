@@ -24,6 +24,7 @@ jsfile: sightseeing
 	</div>
 </div>
 
+
 <div class="container info fadeygreen">
 	<h2>space needle /<br>seattle center</h2>
 	<img src="./images/space_needle.jpeg" alt="space_needle" class="image">
@@ -59,7 +60,7 @@ jsfile: sightseeing
 	<img src="./images/pike_place.jpg" alt="pike_place_market" class="image">
 	<div class="middle">
 		<div class="text">
-			<p>You'd have to get up on the earlier side to see them throw the fish, but even if you don't, <a href="http://pikeplacemarket.org/" target="_blank">Pike Place Market</a> is still worth a visit. You can find just about anything in there, from arts and crafts, to food, flowers, postcards, and <a href="https://ellenos.com/" target="_blank">Ellenos yogurt</a> (keep an eye out for free samples!). Pike Place Market is also where you can find the infamous <a href="https://en.wikipedia.org/wiki/Gum_Wall" target="_blank">Gum Wall</a>, which is, well, a wall full of gum. Yum.</p>
+			<p>You'd have to get up on the earlier side to see them throw the fish, but even if you don't, <a href="http://pikeplacemarket.org/" target="_blank">Pike Place Market</a> is still worth a visit. You can find just about anything in there, including food, flowers, postcards, [Orna's pottery](https://www.orna-pottery.com/), and <a href="https://ellenos.com/" target="_blank">Ellenos yogurt</a> (keep an eye out for free samples!). Pike Place Market is also home to the infamous <a href="https://en.wikipedia.org/wiki/Gum_Wall" target="_blank">Gum Wall</a>, which is, well, a wall full of gum. Yum.</p>
 		</div>
 	</div>
 </div>
@@ -99,7 +100,7 @@ jsfile: sightseeing
 	<img src="./images/blade_timber.jpg" alt="blade_timber" class="image">
 	<div class="middle">
 		<div class="text">
-			<p>In some kind of weird temporal horseshoe effect, axe throwing is really trendy now. If you check it out please let us know how it goes. Be safe. <a href="https://bladeandtimber.com/" target="_blank">Blade &amp; Timber</a> is located in Seattle's Capitol Hill neighborhood.</p>
+			<p>In some kind of weird temporal horseshoe effect, axe throwing is really trendy now. If you check it out please let us know how it goes. Be safe. <a href="https://bladeandtimber.com/" target="_blank">Blade &amp; Timber</a> is located in Seattle's Capitol Hill neighborhood, right by the lightrail station.</p>
 		</div>
 	</div>
 </div>
@@ -178,7 +179,7 @@ jsfile: sightseeing
 	<img src="./images/bedlam.jpg" alt="Bedlam" class="image">
 	<div class="middle">
 		<div class="text">
-			<p><a href="https://www.yelp.com/biz/bedlam-coffee-seattle" target="_blank">Bedlam</a> is a cafe in Belltown (just North of downtown) that has cool art, a piano, and sometimes hosts punk shows.</p>
+			<p><a href="https://www.yelp.com/biz/bedlam-coffee-seattle" target="_blank">Bedlam</a> is a cafe in Belltown (just North of downtown) that has cool art, a skeleton riding a bicycle, and a piano. They sometimes host punk shows.</p>
 		</div>
 	</div>
 </div>
@@ -316,11 +317,11 @@ jsfile: sightseeing
 </div>
 
 <div class='container info fadeygreen'>
-	<h2>dumpling tsar</h2>
-	<img src="./images/supersix.jpg" alt="Super Six" class="image">
+	<h2>dumpling tzar</h2>
+	<img src="./images/dumplingtzar.jpg" alt="dumpling tzar" class="image">
 	<div class="middle">
 		<div class="text">
-			<p>Check out this Hawaiian <a href="http://www.supersixseattle.com/" target="_blank">Super Six</a> in Columbia City (South Seattle) for an awesome brunch. Don't forget to try their malasadas (very delicious Hawaii donuts).</p>
+			<p>Open til 2:30am every day, [Dumpling Tzar](http://dumplingtzar.com/) is your go-to spot for a steaming bowl of Russian dumplings before you call it a night. They have a location in Fremont just down the hill from The Abbey (entrance in the alley), and one in Capitol Hill. The menu has an unintimidating 4 options for entr&eacute;es (plus choice of beef or potato) and there's usually something great playing on the record player.</p>
 		</div>
 	</div>
 </div>
@@ -335,12 +336,49 @@ jsfile: sightseeing
 	</div>
 </div>
 
+<div class='container info fadeygreen'>
+	<h2>wild ginger /<br>the triple door</h2>
+	<img src="./images/tripleginger.jpg" alt="wild ginger triple door" class="image">
+	<div class="middle">
+		<div class="text">
+			<p>[Wild Ginger](https://www.wildginger.net/) is a nice Southeast Asian fusion restaurant. The downtown location sits atop [The Triple Door](https://tickets.thetripledoor.net), a dinner theater that serves food from the restaurant. The second half of October features a run of [This is Halloween](https://tickets.thetripledoor.net/eventperformances.asp?evt=977), a cabaret/burlesque-inspired musical rendition of Tim Burton's _A Nightmare Before Christmas_.</p>
+		</div>
+	</div>
+</div>
+
+<div class='container info fadeygreen'>
+	<h2>rock creek<br>seafood &amp; spirits</h2>
+	<img src="./images/rockcreek.jpg" alt="wild ginger triple door" class="image">
+	<div class="middle">
+		<div class="text">
+			<p>[Rock Creek](https://rockcreekseattle.com/) is a chic and delicious spot to get your fancy local fish fix. They also have good drinks and some nice vegetarian options. Be warned it can get a little loud in their trendy industrial-style space. Across the street from The Abbey (you can see it in this picture!)</p>
+		</div>
+	</div>
+</div>
+
+<div class='container info fadeygreen'>
+	<h2>kate's pub</h2>
+	<img src="./images/kates.jpg" alt="kates pub" class="image">
+	<div class="middle">
+		<div class="text">
+			<p>[Kate's](https://www.facebook.com/KatesPubSeattle/) is a great place for an abundance of pretty affordable food in Wallingford. Happy hour all day Sunday. For two people we recommend splitting a burger with side salad and extra side of fries. Or you do you. They have games, free pool, and darts. We have not met Kate, but the pub features portraits of many Kates on its walls. Please let us know if you identify all of them! We're a few short.</p>
+		</div>
+	</div>
+</div>
+
+<div class='container info fadeygreen'>
+	<h2>pho than brothers</h2>
+	<img src="./images/phothanbros.jpg" alt="pho than brothers" class="image">
+	<div class="middle">
+		<div class="text">
+			<p>For a comforting, invigorating bowl of Pho, try [Pho Than Brothers](http://thanbrothers.com/) at one of their many Seattle locations. They have one veggie option and several interesting meat options. A small is a good size for one person. An extra large is a good size for your baby to bathe in. Delicious and lots of bang for your buck.</p>
+		</div>
+	</div>
+</div>
+
 <!--
-Tsar Dumplings
-Kate's Pub
 Taste of India/Himalayan Sherpa House
-OCtopus bar
-Bongos
+Octopus bar
 [Pho Than Brothers](http://thanbrothers.com/)
 -->
 
@@ -349,6 +387,9 @@ other activities:
 
 columbia tower ferris wheel
 go see a show, what's playing?
+https://www.google.com/search?q=seattle+shows+october+25+2019&rlz=1C5CHFA_enUS707US707&oq=seattle+shows+october+25+2019
+
+
 ferries - bainbridge, vashon, whidbey
 
 

@@ -1,7 +1,7 @@
 ---
 layout: page.html
 outdirs: '..'
-title: Cute-shit
+title: Cute-stuff
 cssfile: cute
 jsfile: cute
 ---
@@ -58,7 +58,7 @@ jsfile: cute
 <figure><img src="./images/blank.png" data-src="./images/rubiks2.jpg"><figcaption><i class="fa fa-angle-double-down fa-lg"></i><span>Contortionism</span></figcaption></figure>
 <figure><img src="./images/blank.png" data-src="./images/mutedteal.jpg"><figcaption><i class="fa fa-angle-double-down fa-lg"></i><span>Matchingish shirts</span></figcaption></figure>
 <figure><img src="./images/blank.png" data-src="./images/vantage.jpg"><figcaption><i class="fa fa-angle-double-down fa-lg"></i><span>Post-climbing lookin cute at Vantage, circa 2011</span></figcaption></figure>
-<figure><img src="./images/blank.png" data-src="./images/yosemite1.jpg"><figcaption><i class="fa fa-angle-double-down fa-lg"></i><span>Still cute still climbing, Yosemite, 2012</span></figcaption></figure>
+<figure><img src="./images/blank.png" data-src="./images/yosemite1.jpg"><figcaption><i class="fa fa-angle-double-down fa-lg"></i><span>Still climbing, Yosemite, 2012</span></figcaption></figure>
 <!--<figure><img src="./images/blank.png" data-src="./images/seapolice.jpg"><figcaption><i class="fa fa-angle-double-down fa-lg"></i><span>This doesn't have us in it but it illustrates my fear of the absurdism that lies beneath the depths</span></figcaption></figure>-->
 <figure><img src="./images/blank.png" data-src="./images/backcats.jpg"><figcaption><i class="fa fa-angle-double-down fa-lg"></i><span>In 2016, 6-week old Pogo had not yet discovered claw retraction, nevertheless Ben selflessly allowed himself to be treated as a climbing structure, with careful parental supervision.</span></figcaption></figure>
 <figure><img src="./images/blank.png" data-src="./images/halloween2.jpg"><figcaption><i class="fa fa-angle-double-down fa-lg"></i><span>Dressed up as Animal and Kermit, Halloween 2012</span></figcaption></figure>
@@ -76,8 +76,8 @@ jsfile: cute
 <!--<figure><img src="./images/blank.png" data-src="./images/pogointshirt.jpg"><figcaption><i class="fa fa-angle-double-down fa-lg"></i><span>Hiding inneffectively under the laundry</span></figcaption></figure>
 <figure><img src="./images/blank.png" data-src="./images/pogopiano.jpg"><figcaption><i class="fa fa-angle-double-down fa-lg"></i><span>Well coordinated items</span></figcaption></figure>
 <figure><img src="./images/blank.png" data-src="./images/ikigai.jpg"><figcaption><i class="fa fa-angle-double-down fa-lg"></i><span>Synergistic set intersections. Not that cute. But nice.</span></figcaption></figure>-->
-<figure><img src="./images/blank.png" data-src="./images/theT.jpg"><figcaption><i class="fa fa-angle-double-down fa-lg"></i><span>We are the T, and we are running on time</span></figcaption></figure>
-<figure><img src="./images/blank.png" data-src="./images/tahoe3.jpg"><figcaption><i class="fa fa-angle-double-down fa-lg"></i><span>Looking beachy</span></figcaption></figure>
+<figure><img src="./images/blank.png" data-src="./images/theT.jpg"><figcaption><i class="fa fa-angle-double-down fa-lg"></i><span>We are the T, and we are running on time, 2009</span></figcaption></figure>
+<figure><img src="./images/blank.png" data-src="./images/tahoe3.jpg"><figcaption><i class="fa fa-angle-double-down fa-lg"></i><span>Looking beachy, 2011</span></figcaption></figure>
 <figure><img src="./images/blank.png" data-src="./images/bandpic1.jpg"><figcaption><i class="fa fa-angle-double-down fa-lg"></i><span>Cover of our first album</span></figcaption></figure>
 <figure><img src="./images/blank.png" data-src="./images/fampickitchen.jpg"><figcaption><i class="fa fa-angle-double-down fa-lg"></i><span>Cover of our second album after we got a new beats mixer</span></figcaption></figure>
 <figure><img src="./images/blank.png" data-src="./images/djsaladspinner.gif"><figcaption><i class="fa fa-angle-double-down fa-lg"></i><span>Beats being mixed</span></figcaption></figure>

@@ -138,11 +138,11 @@ nav a{
 @media only screen and (max-width:775px){
 	.bignavlinks a {font-size:1em;margin:0.2em;} /* NOTE: change select-class in all page-specific css if this max width or font size changes */
 }
-@media only screen and (min-width:600px){
+@media only screen and (min-width:605px){
 	.smallnavlinks{display:none!important;}
 	#overlaybkgrnd{display:none!important;}
 }
-@media only screen and (max-width:599px){
+@media only screen and (max-width:604px){
 	header{
 		height:57px;
 		position:fixed;
@@ -158,6 +158,10 @@ nav a{
 	.bignavlinks {display:none;}
     .navbar-bars{display:table!important;}
     .footernavlinks {font-size:0.5em;margin:1em;} .footernavlinks a {padding:0.2em;}
+}
+@media only screen and (max-width:380px){
+	.wrapper{padding-bottom:14em;}
+	.footernavlinks {font-size:0.7em;margin:1.2em;} .footernavlinks a {padding:0.2em;display:block;}
 }
 @media only screen and (max-width:270px){
 	header .name a {display:none;}

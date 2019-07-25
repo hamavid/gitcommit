@@ -1,5 +1,6 @@
 .where-select{font-weight:bolder;font-style:italic;}
 .coordinate{text-decoration:none;background-color:#5cdede;padding:0.5em;border:2px solid black;}
+h2{border-top:none!important;}
 /*h1{
 	border:1px solid #00b3b3;width:600px;max-width:90%;
 }

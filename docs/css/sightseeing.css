@@ -16,7 +16,7 @@ h1{max-width:500px;}
 }
 
 .image {
-  opacity: 0.8;
+  opacity: 1;
   display: inline-block;
   width:100%;
   height: auto;
@@ -34,7 +34,6 @@ h1{max-width:500px;}
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-
 .container:hover .image {
   opacity: 0.15;
 }
@@ -69,11 +68,36 @@ h1{max-width:500px;}
   white-space: nowrap;
 }
 
+/* alternate class to add to middle, text, and container elements when screen is touched
+also added to media query below */
+.altmiddle{
+  opacity:1;top:0;left:0;
+  transform:none;
+  -ms-transform: none;
+  transition:none;
+  position: relative;
+  text-align: center;
+}
+.alttext{
+  padding:0;width:100%;
+}
+.altcontainer:hover .image {opacity:1;}
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
   .anchor:first-of-type{height:80px;}
+  .middle{
+    opacity:1;top:0;left:0;
+    transform:none;
+    -ms-transform: none;
+    transition:none;
+    position: relative;
+    text-align: center;
+  }
+  .text{padding:0;width:100%;}
+  .container:hover .image {opacity:1;}
 }
 

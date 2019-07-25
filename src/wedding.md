@@ -9,7 +9,7 @@ jsfile: wedding
 <h2>wedding</h2>
 <p>Join us for our wedding ceremony and celebration</p>
 <span style='font-size:1.3em;'>__Saturday, October 26th, 2019__<br>__The Fremont Abbey__</span>
-<br><br>Arrive at <span style='font-size:1.3em;'>__5:30 PM__</span>.<br>We will start with dinner, followed by Havdallah, wedding ceremony, music, and dancing.<br><br>
+<br><br>The evening will include dinner, havdallah, ceremony, cake, music, and dancing. Check back here for timing.<br><br><!--Arrive at <span style='font-size:1.3em;'>__5:30 PM__</span>.<br>We will start with dinner, followed by Havdallah, wedding ceremony, music, and dancing.-->
 </div>
 
 <div class='info fadeygreen'>
@@ -21,19 +21,19 @@ jsfile: wedding
 </div>
 
 <div class='info fadeygreen'>
-<h2>dress code</h2>
+<h2>what to wear</h2>
 <p>Please wear whatever makes you feel comfortable, authentic, or snazzy. We are going to dress up more than we usually do. So you could do that too if you want to be like us. Or you could do something else. It's usually in the 50s and drizzling in October, but the ceremony and reception will both be indoors, in the same building.</p>
-<p>See also The Abbey's [dress code](https://www.fremontabbey.org/events/about-events/). One key point from it is "no spiked shoes". We are pretty sure this means no crampons, cleats, or lawn-aerators, and possibly more pertinently, no stilettos. There are some nice floors to look out for.</p>
+<p>Also, The Abbey's [dress code](https://www.fremontabbey.org/events/about-events/) does not allow "spiked shoes". We think this means no crampons, cleats, lawn-aerators, or stilettos. (There are some nice floors to look out for.) It could also mean don't wear [these](https://www.dhresource.com/0x0s/f2-albu-g7-M00-3A-25-rBVaSlt1WPyAb6poAAGxKnOESEE365.jpg/harpelunde-men-leather-wedding-dress-shoes.jpg) but we are not really sure what the problem would be with that.</p>
 </div>
 
 <div class='info fadeygreen'>
 <h2>jamming</h2>
-<p>Many of you play music. If you think you'd have fun playing instrumental songs (Klezmer? Old time? Irish?), singing from Rise Up Singing together, or making other music in a non-performative setting, we would love that. Feel free to bring an instrument (we can bring some too), and let us know so we can think about space for it.</p>
+<p>Many of you play music. If you think you'd have fun playing instrumental songs (Klezmer? Old time? Irish?), singing from _Rise Up Singing_ together, or making other music in a __non-performative__ setting, we would love that. Feel free to bring an instrument (we will bring some too), and ideally __let us know__, even if it's just a maybe, so we can think about space for it.</p>
 </div>
 
 <div class='info fadeygreen'>
 <h2>chill activities</h2>
-<p>Many of you are kinda introverted. </p>
+<p>For those of you who might want a break from noise or crowds, The Abbey has two floors and lots of little side rooms you can go hide in. Some of these will have puzzles, games, drawing and jewelry-making supplies (make yourself a party favor!) and a guest book. </p>
 </div>
 
 <!-- 

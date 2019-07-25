@@ -53,7 +53,7 @@ jsfile: accommodation
 
 <div class='info fadeygreen'>
 <h2>walk or bike</h2>
-<p>Seattle is very walkable and bikeable. The two bike-share programs currently operating are <a href='https://www.li.me/' target="_blank">Lime</a> and <a href='https://www.jump.com/cities/seattle/' target="_blank">Jump</a>. (Read about the demise of at least two previous programs <a href='https://www.geekwire.com/2018/spin-reportedly-rolling-seattle-leaving-just-one-dockless-bikeshare-service/' target="_blank">here</a>.) These both include some electric bikes, which are awesome for hills and make you feel like a magical beast. BYO-helmet. Ride safe.</p>
+<p>Seattle is very walkable and bikeable. The two bike-share programs currently operating are <a href='https://www.li.me/' target="_blank">Lime</a> and <a href='https://www.jump.com/cities/seattle/' target="_blank">Jump</a>. (Read about the demise of at least two previous programs <a href='https://www.geekwire.com/2018/spin-reportedly-rolling-seattle-leaving-just-one-dockless-bikeshare-service/' target="_blank">here</a>.) These both include some electric bikes, which are helpful for hills and make you feel like a magical beast. BYO-helmet. Ride safe.</p>
 </div>
 
 
