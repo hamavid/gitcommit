@@ -1,4 +1,4 @@
-$(document).ready(function(){
+
 // open small nav menu on navbar click and show overlay, close when overlay is clicked or navbars are clicked again
 	function togglemenu() {
 		$('.smallnavlinks').slideToggle();$('#overlaybkgrnd').fadeToggle();
@@ -22,4 +22,4 @@ $(document).ready(function(){
     });
 */
 
-});
+
