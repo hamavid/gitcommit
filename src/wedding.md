@@ -33,7 +33,7 @@ jsfile: wedding
 
 <div class='info fadeygreen'>
 <h2>chill activities</h2>
-<p>For those of you who might want a break from noise or crowds, The Abbey has two floors and lots of little side rooms you can go hide in. Some of these will have puzzles, games, drawing and jewelry-making supplies (make yourself a party favor!) and a guest book. </p>
+<p>For those of you who might want a break from noise or crowds, The Abbey has two floors and lots of little side rooms you can go hide in. Some of these will have puzzles, games, drawing- and jewelry-making supplies (make yourself a party favor!) and a guest book. </p>
 </div>
 
 <!-- 

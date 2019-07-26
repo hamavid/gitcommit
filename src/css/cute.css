@@ -47,7 +47,7 @@
     background:rgba(0,0,0,0.8);
     padding-right:15px; /* for scrollbar */
 }
-@media only screen and (max-width:450px) {.overlay-content{padding-right:5px;}}
+
 /* areas and links on overlay */
 #leftside,#rightside {
     position:absolute;
@@ -72,9 +72,6 @@
     -webkit-text-stroke-color: black;
 }
 .leftscroller{left:2%;}.rightscroller {right:2%;}
-@media only screen and (max-width:450px), (max-height:450px) {
-    .leftscroller,.rightscroller{opacity:1!important;color:white!important;}
-}
 .rightscroller:hover,.leftscroller:hover{opacity:1!important;}
 .closebtn {
     color:#B0B0B0;
@@ -94,11 +91,6 @@
 }
 
 /*.pinterest-button{position:absolute;right:1em;bottom:0;z-index:5;}  Not in use */
-@media screen and (max-width: 450px), screen and (max-height: 450px) {
-    .overlay-content{height:100%;top:0;}
-    .closebtn {font-size:4em;top:-3%;}
-    .topband{height:0%;}.bottomband{height:0%;}
-}
 .overlay-content a, .closebtn {
     text-decoration: none!important;
     color: #B0B0B0;
@@ -149,5 +141,13 @@ figcaption {
 }
 figcaption>span {margin-left:1.1em;}
 figcaption {cursor:pointer;}
-@media only screen and (max-width: 450px) {figcaption{max-height:100%;}}
-@media only screen and (max-height: 450px) {figcaption{max-width:100%;}}
+@media only screen and (max-width:450px) {.overlay-content{padding-right:5px;}}
+@media screen and (max-width: 450px), (max-height: 450px) {
+    .leftscroller,.rightscroller{opacity:1!important;color:white!important;}
+    .overlay{height:100%;top:0;}
+    .closebtn {font-size:4em;}
+    .topband{height:0%;}
+    figure>img{padding-left:8px;}
+    figcaption{max-height:100%;
+}
+
