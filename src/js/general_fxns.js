@@ -6,7 +6,7 @@
 
 // take away background image on touch screens
 	function touchcheck(){
-		$('body').style('background-image','none');
+		$('body').css('background-image','none');
 	}
 	window.addEventListener('touchstart', function onFirstTouch() {
 	    touchcheck();
