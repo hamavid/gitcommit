@@ -16,8 +16,18 @@ $(document).ready(function(){
     thumbs.fadeIn(200);
   }*/
 
+  // load images for thumbs
+  $(window).on('load', function() {loadthumbs();});
+  loadthumbs = function() {
+    var visthumbs = $('#grid').find("div:visible");
+    visthumbs.each(function() {
+      var imgsrc = $(this).data('src');
+      $(this).css('background-image', 'url(' + imgsrc + ')');
+    });
+  } 
+
   // lazy load actual images for thumbs as user scrolls down
-  $(window).on('load scroll', function() {lazythumbs();});
+  //$(window).on('load scroll', function() {lazythumbs();});
   lazythumbs = function() {
     var visthumbs = $('#grid').find("div:visible");
     visthumbs.each(function() {

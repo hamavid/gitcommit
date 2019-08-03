@@ -160,9 +160,9 @@ nav a{
     .footernavlinks {font-size:0.5em;margin:1em;} .footernavlinks a {padding:0.2em;}
 }
 @media only screen and (max-width:500px){body{background-image:none;}
-@media only screen and (max-width:380px){
+@media only screen and (max-width:380px) and (min-height:450px){
 	.wrapper{padding-bottom:14em;}
-	.footernavlinks {font-size:0.7em;margin:1.2em;} .footernavlinks a {padding:0.2em;display:block;}
+	.footernavlinks {font-size:0.9em;margin:1.2em;} .footernavlinks a {padding:0.2em;display:block;}
 }
 @media only screen and (max-width:270px){
 	header .name a {display:none;}
