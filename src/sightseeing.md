@@ -39,7 +39,7 @@ jsfile: sightseeing
 	<img src="./images/mailbox_peak.jpg" alt="mailbox_peak" class="image">
 	<div class="middle">
 		<div class="text">
-			<p>Two Seattle hiking classics are Rattlesnake Ledge and Mailbox Peak. <a href="https://www.wta.org/go-hiking/hikes/rattle-snake-ledge" target="_blank">Rattlesnake Ledge</a> is a shorter (4 miles) but pretty steep (1,160 ft elevation gain) hike, about a 45-minute drive from Seattle. Amazing views from the top. <a href="https://www.wta.org/go-hiking/hikes/mailbox-peak" target="_blank">Mailbox Peak</a> is a longer (9.6 miles) and steeper (4,000 ft elevation gain) hike that will definitely make you work up a sweat. King County Metro's <a href="https://kingcounty.gov/depts/transportation/metro/schedules-maps/trailhead-issaquah-alps.aspx" target="_blank">Trailhead Direct</a> offers a <a href="https://www.kingcounty.gov/depts/transportation/metro/schedules-maps/trailhead-mailbox-peak.aspx" target="_blank">shuttle</a> to Mailbox Peak on weekends from Issaquah through 10/27.</p>
+			<p>Two Seattle hiking classics are Rattlesnake Ledge and Mailbox Peak. [Rattlesnake Ledge](https://www.wta.org/go-hiking/hikes/rattle-snake-ledge) is a shorter (4 miles) but pretty steep (1,160 ft elevation gain) hike, about a 45-minute drive from Seattle. Amazing views from the top. [Mailbox Peak](https://www.wta.org/go-hiking/hikes/mailbox-peak) is a longer (9.6 miles) and steeper (4,000 ft elevation gain) hike that will definitely make you work up a sweat. King County Metro's [Trailhead Direct](https://kingcounty.gov/depts/transportation/metro/schedules-maps/trailhead-issaquah-alps.aspx) offers a [shuttle](https://www.kingcounty.gov/depts/transportation/metro/schedules-maps/trailhead-mailbox-peak.aspx) to Mailbox Peak on weekends from Issaquah through 10/27.</p>
 		</div>
 	</div>
 </div>
@@ -49,7 +49,7 @@ jsfile: sightseeing
 	<img src="./images/sam.jpg" alt="seattle_art_museum" class="image">
 	<div class="middle">
 		<div class="text">
-			<p>There are a ton of museums in Seattle to cater to all (well, most) tastes. <a href="http://www.seattleartmuseum.org/" target="_blank">Seattle Art Museum</a>, <a href="http://www.seattleartmuseum.org/visit/asian-art-museum" target="_blank">Asian Art Museum</a> (has been closed for renovation, but should be open in the fall), <a href="https://henryart.org/" target="_blank">Henry Art Gallery</a>, and the <a href="https://www.burkemuseum.org/" target="_blank">Burke museum</a> are only a few we can think of. Check out <a href="https://www.thestranger.com/visitors-guide/2017/05/10/25131756/the-strangers-guide-to-the-best-places-to-see-art-in-seattle" target="_blank">The Stranger's</a> guide for more suggestions!</p>
+			<p>There are a ton of museums in Seattle to cater to all (well, most) tastes. [Seattle Art Museum](http://www.seattleartmuseum.org/), [Asian Art Museum](http://www.seattleartmuseum.org/visit/asian-art-museum) (has been closed for renovation, but should be open in the fall), [Henry Art Gallery](https://henryart.org/), [The Frye](https://fryemuseum.org/), and the [Burke museum](https://www.burkemuseum.org/) are only a few we can think of. Check out [The Stranger's guide](https://www.thestranger.com/visitors-guide/2017/05/10/25131756/the-strangers-guide-to-the-best-places-to-see-art-in-seattle) for more suggestions!</p>
 		</div>
 	</div>
 </div>
@@ -59,7 +59,7 @@ jsfile: sightseeing
 	<img src="./images/fremont_troll.jpg" alt="fremont_troll" class="image">
 	<div class="middle">
 		<div class="text">
-			<p>If you are a billy goat gruff and/or curious about what a troll under a bridge looks like, go check out the <a href="https://www.google.com/maps/place/Fremont+Troll/@47.651246,-122.3498699,17z/data=!3m1!4b1!4m5!3m4!1s0x5490150128a784bd:0x9ddb04f1ce7199df!8m2!3d47.651246!4d-122.3476812" target="_blank">Fremont Troll</a> under the Aurora bridge. This massive sculpture was made in <a href="https://en.wikipedia.org/wiki/Fremont_Troll" target="_blank">1990 by local artists</a>.</p>
+			<p>If you are a billy goat gruff and/or curious about what a troll under a bridge looks like, go check out the [Fremont Troll](https://www.google.com/maps/place/Fremont+Troll/@47.651246,-122.3498699,17z/data=!3m1!4b1!4m5!3m4!1s0x5490150128a784bd:0x9ddb04f1ce7199df!8m2!3d47.651246!4d-122.3476812) under the Aurora bridge. This massive sculpture was [made in 1990 by local artists](https://en.wikipedia.org/wiki/Fremont_Troll).</p>
 		</div>
 	</div>
 </div>
@@ -104,13 +104,22 @@ jsfile: sightseeing
 	</div>
 </div>
 
+<div class='container info fadeygreen'>
+	<h2>ferry rides</h2>
+	<img src="./images/ferry.jpeg" alt="ferry" class="image">
+	<div class="middle">
+		<div class="text">
+			<p>[Washington State Ferries](https://www.wsdot.wa.gov/ferries/) are mainly used by commuters who live on the many islands in Puget Sound, but a walk-on passenger ticket to Bainbridge island is a great way to see some amazing views and get out on the water. Check out Mt. Rainier, The Olympics, and the Seattle skyline, feel the wind in your hair, then spend some time at the galleries or caf&eacute;s in town before heading back to Seattle.</p>
+		</div>
+	</div>
+</div>
 
 <div class='container info fadeygreen'>
 	<h2>sunday sailings</h2>
 	<img src="./images/sunday_sail.jpeg" alt="sunday_sail" class="image">
 	<div class="middle">
 		<div class="text">
-			<p><a href="https://www.cwb.org/public-sail" target="_blank">The Center for Wooden Boats</a> in South Lake Union takes the public out for free Sunday sailings on Lake Union all year round. Sign-up starts at 10 a.m., but CWB recommends getting there a little earlier to claim a spot.</p>
+			<p>[The Center for Wooden Boats](https://www.cwb.org/public-sail) in South Lake Union takes the public out for free Sunday sailings on Lake Union all year round. Sign-up starts at 10 a.m., but CWB recommends getting there a little earlier to claim a spot.</p>
 		</div>
 	</div>
 </div>
@@ -120,7 +129,7 @@ jsfile: sightseeing
 	<img src="./images/blade_timber.jpg" alt="blade_timber" class="image">
 	<div class="middle">
 		<div class="text">
-			<p>In some kind of weird temporal horseshoe effect, axe throwing is really trendy now. If you check it out please let us know how it goes. Be safe. <a href="https://bladeandtimber.com/" target="_blank">Blade &amp; Timber</a> is located in Seattle's Capitol Hill neighborhood, right by the lightrail station.</p>
+			<p>In some kind of weird temporal horseshoe effect, axe throwing is really trendy now. If you check it out please let us know how it goes. Be safe. [Blade &amp; Timber](https://bladeandtimber.com/) is located in Seattle's Capitol Hill neighborhood, right by the lightrail station.</p>
 		</div>
 	</div>
 </div>
@@ -162,7 +171,7 @@ ferries - bainbridge, vashon, whidbey
 	<img src="./images/freshflours.jpg" alt="Fresh Flours Bakery and Cafe" class="image">
 	<div class="middle">
 		<div class="text">
-			<p><a href="http://www.freshfloursseattle.com/" target="_blank">Fresh Flours</a> has a few locations in Seattle - Phinney Ridge, Beacon Hill, West Seattle and South Lake Union. You can't really go wrong with any of their pastries, but we especially recommend the GF Double Chocolate Cookie and the Basque Cake. Also, from 4-5pm they have a happy hour, with 50% off whatever pastries are left.</p>
+			<p><[Fresh Flours](http://www.freshfloursseattle.com/) has a few locations in Seattle - Phinney Ridge, Beacon Hill, West Seattle and South Lake Union. You can't really go wrong with any of their pastries, but we especially recommend the GF Double Chocolate Cookie and the Basque Cake. Also, from 4-5pm they have a happy hour, with 50% off whatever pastries are left.</p>
 		</div>
 	</div>
 </div>
@@ -173,7 +182,7 @@ ferries - bainbridge, vashon, whidbey
 	<!-- Photo by Mae Mu on Unsplash -->
 		<div class="middle">
 		<div class="text">
-			<p><a href="https://lighthouseroasters.com/" target="_blank">Lighthouse Roasters</a> is basically next door to our apartment! Check out the beans being roasted on-site while you sip your coffee.</p>
+			<p>[Lighthouse Roasters](https://lighthouseroasters.com/) is basically next door to our apartment! Check out the beans being roasted on-site while you sip your coffee.</p>
 		</div>
 	</div>
 </div>
@@ -193,7 +202,7 @@ ferries - bainbridge, vashon, whidbey
 	<img src="./images/alamodepies.jpg" alt="A la Mode Pies" class="image">
 		<div class="middle">
 			<div class="text">
-				<p>You'll want to try every pie when you go into <a href="https://www.alamodeseattle.com/" target="_blank">A la Mode Pies</a>. You can pair a trip to their Phinney location with a tour of the [Woodland Park Zoo](https://www.zoo.org/).</p>
+				<p>You'll want to try every pie when you go into [A la Mode Pies](https://www.alamodeseattle.com/). You can pair a trip to their Phinney location with a tour of the [Woodland Park Zoo](https://www.zoo.org/).</p>
 			</div>
 	</div>
 </div>
@@ -203,7 +212,7 @@ ferries - bainbridge, vashon, whidbey
 	<img src="./images/besalu.jpg" alt="Besalu and Tall Grass" class="image">
 	<div class="middle">
 		<div class="text">
-			<p><a href="https://cafebesalu.com/" target="_blank">Besalu</a> is a great pastry bakery in Ballard. For a holistic bakery-related experience, you can also go next door to <a href="https://www.tallgrassbakery.com/" target="_blank">Tall Grass Bakery</a> and get delicious fresh bread.</p>
+			<p>[Besalu](https://cafebesalu.com/) is a great pastry bakery in Ballard. For a holistic bakery-related experience, you can also go next door to [Tall Grass Bakery](https://www.tallgrassbakery.com/) and get delicious fresh bread.</p>
 		</div>
 	</div>
 </div>
@@ -223,7 +232,7 @@ ferries - bainbridge, vashon, whidbey
 	<img src="./images/cortona.jpg" alt="Cortona Cafe" class="image">
 	<div class="middle">
 		<div class="text">
-			<p><a href="http://cortonacafe.com/" target="_blank">Cortona Cafe</a> is in the Central District and serves <a href="https://herkimercoffee.com/" target="_blank">Herkimer Coffee</a>, fresh pastries, and delicious waffles. Sit on the terrace if it's nice out or try the cozy second floor seating.</p>
+			<p><[Cortona Caf&eacute;](http://cortonacafe.com/) is in the Central District and serves [Herkimer coffee](https://herkimercoffee.com/), fresh pastries, and delicious waffles. Sit on the terrace if it's nice out or try the cozy second floor seating.</p>
 		</div>
 	</div>
 </div>
@@ -233,7 +242,7 @@ ferries - bainbridge, vashon, whidbey
 	<img src="./images/seawolf.jpg" alt="Sea Wolf Bakers" class="image">
 	<div class="middle">
 		<div class="text">
-			<p>So, a cinnamon roll at <a href="https://www.seawolfbakers.com/" target="_blank">Sea Wolf Bakers</a> is $7, but when you see it, you sort of understand why. The thing is massive and can easily feed two people. Also, their breads and other pastries are very tasty and sometimes there are cute puppies waiting outside.</p>
+			<p>So, a cinnamon roll at [Sea Wolf Bakers](https://www.seawolfbakers.com/) is $7, but when you see it, you sort of understand why. The thing is massive and can easily feed two people. Also, their breads and other pastries are very tasty and sometimes there are cute puppies waiting outside.</p>
 		</div>
 	</div>
 </div>
@@ -243,7 +252,7 @@ ferries - bainbridge, vashon, whidbey
 	<img src="./images/bedlam.jpg" alt="Bedlam" class="image">
 	<div class="middle">
 		<div class="text">
-			<p><a href="https://www.yelp.com/biz/bedlam-coffee-seattle" target="_blank">Bedlam</a> is a caf&eacute; in Belltown (just North of downtown) that has cool art, a skeleton riding a bicycle, and a piano. They sometimes host punk shows.</p>
+			<p>[Bedlam](https://www.yelp.com/biz/bedlam-coffee-seattle) is a caf&eacute; in Belltown (just North of downtown) that has cool art, a skeleton riding a bicycle, and a piano. They sometimes host punk shows.</p>
 		</div>
 	</div>
 </div>
@@ -257,8 +266,6 @@ ferries - bainbridge, vashon, whidbey
 		</div>
 	</div>
 </div>
-
-<!-- Ada's, chocolati-->
 
 
 <!-- RESTAURANTS -->
@@ -313,7 +320,7 @@ ferries - bainbridge, vashon, whidbey
 	<img src="./images/paseos.jpg" alt="Paseos Bongos" class="image">
 	<div class="middle">
 		<div class="text">
-			<p>If you're into greasy, amazing sandwiches, then <a href="https://www.paseorestaurants.com/paseo-fremont" target="_blank">Paseo's</a> in Fremont is a must-stop. Load up on napkins and dive into the Caribbean deliciousness like there's no tomorrow. And if that's not enough, check out [Bongos](http://www.bongosseattle.com/), on Aurora, by Greenlake. It's a gas station converted into a beach. They have indoor seating too. And beer.</p>
+			<p>If you're into greasy, amazing Caribbean sandwiches, then [Paseo's](https://www.paseorestaurants.com/) in Fremont is a must-stop. Load up on napkins and dive into the deliciousness like there's no tomorrow. And if that's not enough, check out [Bongos](http://www.bongosseattle.com/), on Aurora, by Greenlake. It's a gas station converted into a beach. They have indoor seating too. And beer.</p>
 		</div>
 	</div>
 </div>
@@ -363,7 +370,7 @@ ferries - bainbridge, vashon, whidbey
 	<img src="./images/dlasanta.jpg" alt="D' La Santa" class="image">
 	<div class="middle">
 		<div class="text">
-			<p>Family-owned <a href="https://dlasanta.com/" target="_blank">D’ La Santa</a> is a hidden Mexican gem in the Seattle neighborhood of Eastlake. Don't miss out on their amazing sangria and margaritas!</p>
+			<p>Family-owned [D’ La Santa](https://dlasanta.com/) is a great Mexican restaurant in the Seattle neighborhood of Eastlake. Don't miss out on their amazing sangria and margaritas!</p>
 		</div>
 	</div>
 </div>
@@ -373,7 +380,7 @@ ferries - bainbridge, vashon, whidbey
 	<img src="./images/nobonesbeachclub.jpg" alt="No Bones Beach Club" class="image">
 	<div class="middle">
 		<div class="text">
-			<p>If you're in Ballard, <a href="https://nobonesbeachclub.com/" target="_blank">No Bones Beach Club</a> is a fun way to get some vegan comfort food and lots of beach vibes in the middle of October.</p>
+			<p>If you're in Ballard, (No Bones Beach Club)[https://nobonesbeachclub.com/] is a fun way to get some vegan comfort food and lots of beach vibes in the middle of October.</p>
 		</div>
 	</div>
 </div>
@@ -383,7 +390,7 @@ ferries - bainbridge, vashon, whidbey
 	<img src="./images/supersix.jpg" alt="Super Six" class="image">
 	<div class="middle">
 		<div class="text">
-			<p>Check out this Hawaiian <a href="http://www.supersixseattle.com/" target="_blank">Super Six</a> in Columbia City (South Seattle) for an awesome brunch. Don't forget to try their malasadas (very delicious Hawaii donuts).</p>
+			<p>Check out [Super Six](http://www.supersixseattle.com/) in Columbia City (South Seattle) for an awesome brunch. Don't forget to try their malasadas (very delicious Hawaiian donuts).</p>
 		</div>
 	</div>
 </div>
@@ -393,7 +400,7 @@ ferries - bainbridge, vashon, whidbey
 	<img src="./images/doughzone.jpg" alt="Dough Zone Dumpling House" class="image">
 	<div class="middle">
 		<div class="text">
-			<p>Head over to <a href="https://www.doughzonedumplinghouse.com/" target="_blank">Dough Zone</a> in Seattle's International District, and expect to leave full and satisfied with a variety of dumplings. While you're there, stop by <a href="https://www.uwajimaya.com/" target="_blank">Uwajimaya</a>, an Asian specialty supermarket with everything from food and tea to kitchenware and books.</p>
+			<p>Head over to [Dough Zone](https://www.doughzonedumplinghouse.com/) in Seattle's International District, and expect to leave full and satisfied with a variety of dumplings. While you're there, stop by [Uwajimaya](https://www.uwajimaya.com/), an Asian specialty supermarket with everything from food and tea to kitchenware and books.</p>
 		</div>
 	</div>
 </div>
@@ -405,6 +412,5 @@ ferries - bainbridge, vashon, whidbey
 <!--
 Taste of India/Himalayan Sherpa House
 Octopus bar
-[Pho Than Brothers](http://thanbrothers.com/)
 -->
 

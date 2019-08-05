@@ -47,14 +47,14 @@ footer{position:absolute;bottom:0;}
 
 
 /* Styles for the RSVP form itself */
-#rsvp-form{display:none;}
+#rsvp-form, #friexp{display:none;}
 #rsvp-form section{}
 #rsvp-form section, #rsvp-form textarea, #rsvp-form input[type=email]{
   font-family:Montserrat, sans-serif;display:block;
   text-align:left;margin:auto;width:450px;max-width:90%;
 }
 #rsvp-form textarea, #rsvp-form input[type=email]{font-size:0.9em;margin-bottom:1.5em;}
-#rsvp-form section div {font-family:Montaga, serif;padding:1em 0 0.5em 0;}
+#rsvp-form section div, #friexp {font-family:Montaga, serif;padding:1em 0 0.5em 0;}
 #rsvp-form section input[type=text] {background-color:inherit;color:inherit;}
 #rsvp-form button[type=submit] {
   font-size:1.3em;margin-top:1.8em;

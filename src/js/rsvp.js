@@ -5,8 +5,10 @@ $(document).ready(function(){
   //$.getJSON( "../data/testnames.json", function(names) {
   $.ajax({
     dataType: 'json',
-    url: "../data/testnames.json", 
-    success:function(names) {
+    //url: "../data/testnames.json", 
+    //success:function(names) {
+    url: "../data/testnamesandfri.json",
+    success:function(namesandfri) {
 
 
     // reactivate search button if text box is clicked
@@ -21,22 +23,30 @@ $(document).ready(function(){
       $('#confirm-buttons').css('display','none');
       $('#result').html('');
       $('section, button[type=submit]').remove();
-      $('#rsvp-form').hide();
+      $('#rsvp-form, #friexp').hide();
+      $('.search-container button, #indeed').removeClass('inactivebutton');
       $('#notso').show();
       e.preventDefault();
       // deal with input text
       var input = $('#namesinput').val().toUpperCase();
-      if (names[input] === undefined) {
+      var foundit=-1;
+      for (var i = 0; i < namesandfri.length; i++) {
+        if (namesandfri[i].code === input) {var foundit=i;}
+      }
+      //if (names[input] === undefined) {
+      if (foundit === -1) {
         var result = "Hmmm that doesn't look right. Check that your code is 5 characters long and contains only letters and numbers.";
         $('#result').html(result);
       } else {
-        getnames(input);
+        //getnames(input);
+        getnames(foundit);
       }
     });
 
 
       function getnames(inp) {
-        var respondingfor=names[inp];
+        //var respondingfor=names[inp];
+        var respondingfor = namesandfri[inp].names;
         var numppl = respondingfor.split(', ').length;
         $('#result').html('Looks like you are responding for: <br><p id="respondents">' + parsenames_pretty(respondingfor) + '</p>');
         // populate yes button depending on num ppl
@@ -63,7 +73,7 @@ $(document).ready(function(){
       $('#namesinput').val('');
       $('#confirm-buttons').css('display','none');
       $('#result').html('');
-      $('#rsvp-form').hide();
+      $('#rsvp-form, #friexp').hide();
       $('section, button[type=submit]').remove();
       $('.search-container button, #indeed').removeClass('inactivebutton');
       $('.broken, .broken a').addClass('highlight');
@@ -77,41 +87,60 @@ $(document).ready(function(){
       $('#notso').hide();
       // deal with input text
       var input = $('#namesinput').val().toUpperCase(); //uppercase it in case people were inconsistent
+      var foundit=-1;
+      for (var i = 0; i < namesandfri.length; i++) {
+        if (namesandfri[i].code === input) {var foundit=i;}
+      }
       // if there is no guestlist entry for this code, display error message
-      if (names[input] === undefined) {
+      //if (names[input] === undefined) {
+      if (foundit === -1) {
         var result = "Hmmm that doesn't look right. Check that your code is 5 characters long and contains only letters and numbers.";
         $('#result').html(result);
         return;
       // if guestlist entry is found, continue
       } else {
-        var respondingfor=names[input];
+        //var respondingfor=names[input];
+        var respondingfor = namesandfri[foundit].names;
+        var fri = namesandfri[foundit].friyorn;
         var numppl = respondingfor.split(', ').length;
         // show rsvp form
         $('#rsvp-form').show();
         // enter names as the subject line for the email
         $('#subjwho').val('RSVP: '+respondingfor);
+        // if fri is y, add explanation in appropriate div and make it visible
+        if (fri === 'y') {$('#friexp').show();}
         // create attendance options and comment/diet fields for each possible guest and customize to the guest
         for (var i=0;i<numppl;i++) {
-          buildform(i);
+          buildform(i, fri);
           var guestname = respondingfor.split(', ')[i];
           $('input[name="name'+i+'"]').val(guestname);
           //$('#diet'+i+' div').html('Optional: Tell us something!<br>If '+guestname.split(' ')[0]+' <em>will</em> be attending, please let us know if they have any food allergies or dietary restrictions.');
-          $('#email'+i+' div').html('Optional: Enter your email address (we will send you a confirmation email and maybe some other info)');
-          $('#diet'+i+' div').html('Optional: Please let us know about any food allergies or dietary restrictions for ' + guestname.split(' ')[0] + ', or anything else you want to tell us!');
+          $('#email'+i+' div').html('Enter your email address (optional: we will send you a confirmation email and maybe some other info)');
+          $('#diet'+i+' div').html('Please let us know about any food allergies or dietary restrictions for ' + guestname.split(' ')[0] + ', or anything else you want to tell us!');
           $('#diet'+i).show();
         }
         $('#rsvp-form form').append('<button type="submit">Submit</button>');
       }
     });
 
+      // Function to build Friday section and customize wedding vs Fri rsvp explanations
+      function frisec(i) {
+        var fri_section = $('<section></section>').attr('id','fri'+i).css('margin-top','1em');
+        $('#rsvp-form form').append(fri_section);
+        fri_section.append('<label><input type="radio" name="fri'+i+'" class="willAttendFri" value="willAttendFri" required />Will attend Friday gathering</label><br>');
+        fri_section.append('<label><input type="radio" name="fri'+i+'" class="willNotAttendFri" value="willNotAttendFri" required />Will not attend Friday gathering</label><br>');
+      }
+
 
       // Function to build an RSVP section per guest
-      function buildform(i){
+      function buildform(i, fri){
+        if (fri === 'y') {var wed=' wedding';}else{var wed='';}
         var att_section = $('<section></section>').attr('id', 'att'+i);
         $('#rsvp-form form').append(att_section);
         att_section.append('<input type="text" value="" name="name'+i+'" readonly /><br>');
-        att_section.append('<label><input type="radio" name="att'+i+'" class="willAttend" value="willAttend" required />Will attend</label><br>');
-        att_section.append('<label><input type="radio" name="att'+i+'" class="willNotAttend" value="willNotAttend" required />Will not attend</label><br>');
+        att_section.append('<label><input type="radio" name="att'+i+'" class="willAttend" value="willAttend" required />Will attend'+wed+'</label><br>');
+        att_section.append('<label><input type="radio" name="att'+i+'" class="willNotAttend" value="willNotAttend" required />Will not attend'+wed+'</label><br>');
+        if (fri === 'y') {frisec(i);}
         var email_section = $('<section></section>').attr('id', 'email'+i);
         $('#rsvp-form form').append(email_section);
         email_section.append('<div></div>');

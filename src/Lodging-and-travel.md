@@ -8,9 +8,9 @@ jsfile: accommodation
 <h1>Lodging</h1>
 <div class='info fadeygreen'>
 <h2>stay at a hotel or b&amp;b</h2>
-<p>This list is a hodge podge from [The Abbey](https://www.fremontabbey.org/guide/) and some semi-educated Googling. We cannot vouch for the accuracy or quality of these lodging suggestions, but hopefully they are a good start.
+<p>These suggestions are a hodge podge from [The Abbey](https://www.fremontabbey.org/guide/) and some semi-educated Googling. We cannot vouch for the accuracy or quality of all of them, but hopefully they are a good start.
 <ul style='text-align:left;'>
-<li>[Chelsea Station Inn](https://www.chelseastationinn.com/) - a quaint B&amp;B just up the street from the Abbey (walkable). On the pricey side.</li>
+<li>[Chelsea Station Inn](https://www.chelseastationinn.com/) - a quaint B&amp;B just up the street from the Abbey.</li>
 <li>[Art Hostel](http://hotelhotel.co/hello) - A cool hostel in Fremont, near the Abbey.</li>
 <li>[City Hostel](https://thehello.com/locations/city-hostel-seattle/) - Arty hostel in Belltown, shared bathrooms and free breakfast.</li>
 <li>[Shafer Baillie Mansion B&amp;B](https://www.sbmansion.com/) - A B&amp;B on Capitol Hill near Volunteer Park.</li>

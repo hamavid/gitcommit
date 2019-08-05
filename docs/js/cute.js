@@ -17,7 +17,6 @@ $(document).ready(function(){
   }*/
 
   // load images for thumbs
-  $(window).on('load', function() {loadthumbs();});
   loadthumbs = function() {
     var visthumbs = $('#grid').find("div:visible");
     visthumbs.each(function() {
@@ -25,6 +24,8 @@ $(document).ready(function(){
       $(this).css('background-image', 'url(' + imgsrc + ')');
     });
   } 
+  $(window).on('load', function() {loadthumbs();});
+  loadthumbs();
 
   // lazy load actual images for thumbs as user scrolls down
   //$(window).on('load scroll', function() {lazythumbs();});
