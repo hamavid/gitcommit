@@ -15,7 +15,7 @@ jsfile: wedding
 <div class='info fadeygreen'>
 <h2>getting there</h2>
 <p>The Abbey is at <span style='font-size:1.1em;'>[4272 Fremont Ave N](https://goo.gl/maps/MFzZhK2gA2syAqk66)</span>.</p>
-<p>Parking in the surrounding neighborhood is free, but can be hard to find. The Abbey is directly on the #5 bus line, and also near the 44, E-line, 28, 62, 31, 21. If you're walking or biking, be warned it's halfway up a pretty big hill. Read more on [The Abbey's website](https://www.fremontabbey.org/about/contact/) or our [Lodging &amp; Travel](./lodging-and-travel) page.</p>
+<p>Parking in the surrounding neighborhood is free, but can be hard to find. The Abbey is directly on the #5 bus line, and also near the 44, E-line, 28, 62, 31, 21. If you're walking or biking, be warned it's halfway up a pretty big hill. Read more on [The Abbey's website](https://www.fremontabbey.org/about/contact/) or our [Lodging &amp; Travel](../lodging-and-travel) page.</p>
 <p>The loading zone in front of the Abbey can be reserved for ADA parking upon request. Both floors of the building have ADA accessible entrances and bathrooms.
 </p>
 </div>

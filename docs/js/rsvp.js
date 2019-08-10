@@ -110,7 +110,7 @@ $(document).ready(function(){
         // if fri is y, add explanation in appropriate div and make it visible
         if (fri === 'y') {$('#friexp').show();}
         // create attendance options and comment/diet fields for each possible guest and customize to the guest
-        for (var i=0;i<numppl;i++) {
+        for (var i=1;i<numppl;i++) {
           buildform(i, fri);
           var guestname = respondingfor.split(', ')[i];
           $('input[name="name'+i+'"]').val(guestname);
@@ -137,7 +137,7 @@ $(document).ready(function(){
         if (fri === 'y') {var wed=' wedding';}else{var wed='';}
         var att_section = $('<section></section>').attr('id', 'att'+i);
         $('#rsvp-form form').append(att_section);
-        att_section.append('<input type="text" value="" name="name'+i+'" readonly /><br>');
+        att_section.append('<input type="text" value="" name="name'+i+' readonly /><br>');
         att_section.append('<label><input type="radio" name="att'+i+'" class="willAttend" value="willAttend" required />Will attend'+wed+'</label><br>');
         att_section.append('<label><input type="radio" name="att'+i+'" class="willNotAttend" value="willNotAttend" required />Will not attend'+wed+'</label><br>');
         if (fri === 'y') {frisec(i);}

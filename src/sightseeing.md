@@ -171,7 +171,7 @@ ferries - bainbridge, vashon, whidbey
 	<img src="./images/freshflours.jpg" alt="Fresh Flours Bakery and Cafe" class="image">
 	<div class="middle">
 		<div class="text">
-			<p><[Fresh Flours](http://www.freshfloursseattle.com/) has a few locations in Seattle - Phinney Ridge, Beacon Hill, West Seattle and South Lake Union. You can't really go wrong with any of their pastries, but we especially recommend the GF Double Chocolate Cookie and the Basque Cake. Also, from 4-5pm they have a happy hour, with 50% off whatever pastries are left.</p>
+			<p>[Fresh Flours](http://www.freshfloursseattle.com/) has a few locations in Seattle - Phinney Ridge, Beacon Hill, West Seattle and South Lake Union. You can't really go wrong with any of their pastries, but we especially recommend the GF Double Chocolate Cookie and the Basque Cake. Also, from 4-5pm they have a happy hour, with 50% off whatever pastries are left.</p>
 		</div>
 	</div>
 </div>
@@ -232,7 +232,7 @@ ferries - bainbridge, vashon, whidbey
 	<img src="./images/cortona.jpg" alt="Cortona Cafe" class="image">
 	<div class="middle">
 		<div class="text">
-			<p><[Cortona Caf&eacute;](http://cortonacafe.com/) is in the Central District and serves [Herkimer coffee](https://herkimercoffee.com/), fresh pastries, and delicious waffles. Sit on the terrace if it's nice out or try the cozy second floor seating.</p>
+			<p>[Cortona Caf&eacute;](http://cortonacafe.com/) is in the Central District and serves [Herkimer coffee](https://herkimercoffee.com/), fresh pastries, and delicious waffles. Sit on the terrace if it's nice out or try the cozy second floor seating.</p>
 		</div>
 	</div>
 </div>
@@ -380,7 +380,7 @@ ferries - bainbridge, vashon, whidbey
 	<img src="./images/nobonesbeachclub.jpg" alt="No Bones Beach Club" class="image">
 	<div class="middle">
 		<div class="text">
-			<p>If you're in Ballard, (No Bones Beach Club)[https://nobonesbeachclub.com/] is a fun way to get some vegan comfort food and lots of beach vibes in the middle of October.</p>
+			<p>If you're in Ballard, [No Bones Beach Club](https://nobonesbeachclub.com/) is a fun way to get some vegan comfort food and lots of beach vibes in the middle of October.</p>
 		</div>
 	</div>
 </div>
