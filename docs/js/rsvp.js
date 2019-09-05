@@ -118,7 +118,7 @@ $(document).ready(function(){
           console.log(guestname);
           $('input[name="id'+w+'"]').val(guestname);
           //$('#diet'+i+' div').html('Optional: Tell us something!<br>If '+guestname.split(' ')[0]+' <em>will</em> be attending, please let us know if they have any food allergies or dietary restrictions.');
-          $('#email'+w+' div').html('Enter your email address (optional: we will send you a confirmation email and maybe some other info)');
+          $('#email'+w+' div').html('Enter your email address (optional). We\'ll send you a confirmation within 24 hours and maybe some updates');
           $('#diet'+w+' div').html('Please let us know about any food allergies or dietary restrictions for ' + guestname.split(' ')[0] + ', or anything else you want to tell us!');
           $('#diet'+w).show();
         }
