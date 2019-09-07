@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
-
+/* use http://www.convertcsv.com/csv-to-json.htm to get guestlist csv to json format */
 /* ///////////// Functions to find names and confirm which guests are responding //////////////*/
   //$.getJSON( "../data/testnames.json", function(names) {
   $.ajax({
     dataType: 'json',
     //url: "../data/testnames.json", 
     //success:function(names) {
-    url: "../data/testnamesandfri.json",
+    url: "../data/namesandfri.json",
     success:function(namesandfri) {
 
 
@@ -118,7 +118,7 @@ $(document).ready(function(){
           console.log(guestname);
           $('input[name="id'+w+'"]').val(guestname);
           //$('#diet'+i+' div').html('Optional: Tell us something!<br>If '+guestname.split(' ')[0]+' <em>will</em> be attending, please let us know if they have any food allergies or dietary restrictions.');
-          $('#email'+w+' div').html('Enter your email address (optional). We\'ll send you a confirmation within 24 hours and maybe some updates');
+          $('#email'+w+' div').html('Enter your email address (optional). We\'ll send you a confirmation within 24 hours and maybe some updates or details.');
           $('#diet'+w+' div').html('Please let us know about any food allergies or dietary restrictions for ' + guestname.split(' ')[0] + ', or anything else you want to tell us!');
           $('#diet'+w).show();
         }
