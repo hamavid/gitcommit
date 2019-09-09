@@ -97,7 +97,7 @@
  {
    "code": "KCWN9",
    "names": "Julia Kelson, David Lilien",
-   "friyorn": "y"
+   "friyorn": "n"
  },
  {
    "code": "3H46Z",
@@ -157,7 +157,7 @@
  {
    "code": "BH9VD",
    "names": "Leah Knopf, Davíd Reyes",
-   "friyorn": "y"
+   "friyorn": "n"
  },
  {
    "code": "5AV7H",
@@ -306,7 +306,7 @@
  },
  {
    "code": "SYAE6",
-   "names": "Ed Plotkin, Frances Plotkin",
+   "names": "Edward Plotkin, Frances Plotkin",
    "friyorn": "y"
  },
  {
@@ -417,6 +417,16 @@
  {
    "code": "RZLUY",
    "names": "Kaeley Pruitt-Hamm, Conor Whelan",
+   "friyorn": "n"
+ },
+  {
+   "code": "FLJWV",
+   "names": "Laura Wray, Bob Lamarre",
+   "friyorn": "y"
+ },
+ {
+   "code": "B2MHG",
+   "names": "Mel Blake, Rebecca Blake",
    "friyorn": "y"
  }
 ]

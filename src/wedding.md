@@ -9,7 +9,7 @@ jsfile: wedding
 <h2>wedding</h2>
 <p>Join us for our wedding ceremony and celebration</p>
 <span style='font-size:1.3em;'>__Saturday, October 26th, 2019__<br>__The Fremont Abbey__</span>
-<br><br>Arrive by <span style='font-size:1.3em;'>__5:30 PM__</span>.<br>We will <span style='font-size:1.1em;'>__start with dinner__</span>,<br>followed by Havdallah, ceremony, music, and dancing.
+<br><br>Arrive by <span style='font-size:1.3em;'>__5:15 PM__</span>.<br>We will <span style='font-size:1.1em;'>__start with dinner at 5:30__</span>,<br>followed by Havdallah, ceremony, music, and dancing.
 </div>
 
 <div class='info fadeygreen'>
