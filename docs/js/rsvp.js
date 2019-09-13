@@ -48,7 +48,7 @@ $(document).ready(function(){
         //var respondingfor=names[inp];
         var respondingfor = namesandfri[inp].names;
         var numppl = respondingfor.split(', ').length;
-        $('#result').html('Looks like you are responding for: <br><p id="respondents">' + parsenames_pretty(respondingfor) + '</p>');
+        $('#result').html('Are you responding for: <br><p id="respondents">' + parsenames_pretty(respondingfor) + '?</p>(You\'ll get to say who is and isn\'t attending on the next page.)<br><br>');
         // populate yes button depending on num ppl
         if (numppl > 1) {$('#indeed').html("Yes, that's us!");}
         else {$('#indeed').html("Yes, that's me!");}
