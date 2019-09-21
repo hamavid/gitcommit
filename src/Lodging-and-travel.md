@@ -41,14 +41,14 @@ jsfile: accommodation
 <div class='info fadeygreen'>
 <h2>flying</h2>
 <p>The closest major airport to Seattle is SeaTac (SEA). From there, you can get up to Seattle by rental car or Lyft/Uber (~30 minutes), or reserve a spot on a [shuttle](https://shuttleexpress.com/seattle-seatac-airport-transportation/).</p>
-<p>It's also easy, though a bit slow, to take the lightrail: From baggage claim, follow signs for the Link Light Rail (about a 10 minute walk, past the parking garage). Get a single-ride ticket from the ticket machines (or tap your [ORCA card](https://www.orcacard.com/ERG-Seattle/getACard.do)) before going up to the train platform. You don't have to give anyone the ticket to get on the train, but hold on to it until you disembark, in case the train cops board to check.</p>
+<p>You can also take the lightrail: From baggage claim, follow signs for the Link Light Rail (about a 10 minute walk, past the parking garage). Use the ticket machines to buy a single-ride ticket, or get an [ORCA card](https://www.orcacard.com/ERG-Seattle/getACard.do) and tap it, then go up to the train platform. You don't have to give anyone the ticket to get on the train, but hold on to it until you disembark, in case the train cops board to check.</p>
 </div>
 
 <div class='info fadeygreen'>
 <h2>public transit</h2>
-<p><!--Public transit is a great way to get around Seattle! It comes with a chauffeur, a VIP lane, and sometimes entertainment.--> Bus fare is $2.75, cash only, no change available. Lightrail fare varies, and you have to get a ticket at the machines at the stations before getting on the train. You can also use the [Transit Go](https://kingcounty.gov/depts/transportation/metro/fares-orca/transit-go-ticket.aspx) app to pay with your phone.
-<p>Alternatively, [get an ORCA card](https://www.orcacard.com/ERG-Seattle/getACard.do) for $5 at [participating retailers](https://www.soundtransit.org/sites/default/files/documents/orca_retail_locations.pdf), or in the mail ahead of time by filling out an [online form](https://www.soundtransit.org/sites/default/files/documents/orca_card_order_value_form.pdf), then add E-purse value. ORCA cards work for both lightrail and buses and include transfers between them.</p>
+<p><!--Public transit is a great way to get around Seattle! It comes with a chauffeur, a VIP lane, and sometimes entertainment.--> Bus fare is $2.75, cash only, no change available. Lightrail fare varies, and you have to get a ticket at the machines at the stations before boarding. You can also use the [Transit Go](https://kingcounty.gov/depts/transportation/metro/fares-orca/transit-go-ticket.aspx) app to pay with your phone. Alternatively, [get an ORCA card](https://www.orcacard.com/ERG-Seattle/getACard.do) for $5 and add E-purse value. ORCA cards work for both lightrail and buses and include transfers between them.</p>
 <p>[OneBusAway](https://onebusaway.org/) is a local transit app that shows bus and lightrail schedules and which lines come to a given stop.</p>
+<p>Unfortunately, 10/26-10/27 is one of the weekends with [major construction](https://www.soundtransit.org/get-to-know-us/news-events/news-releases/construction-will-close-light-rail-downtown-seattle-three) planned on the lightrail this fall, so allow extra time for lightrailing. There will be shuttles through downtown, everything will be crowded, and you can't bring that bicycle you had on the plane. We forgot to tell city council about our wedding, sorry.</p>
 </div>
 
 <div class='info fadeygreen'>
