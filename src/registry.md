@@ -26,8 +26,8 @@ Email: itsawedding.fyi@gmail.com
 
 <div class='info fadeygreen'>
 <h2>stuff</h2>
-We're making a small registry with some things that we would enjoy having. Check back here soon.
-<img src='./images/stuff7.jpeg' alt="stuff" class="image">
+We made [a small registry](https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/548069606) with some things that we would enjoy having.
+<a href='https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/548069606'><img src='./images/stuff7.jpeg' alt="stuff" class="image"></a>
 
 <!--
 sheets
