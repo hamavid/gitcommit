@@ -9,6 +9,7 @@ footer{position:absolute;bottom:0;}
 .broken{font-size:0.7em;font-style:italic;}
 .broken a {color:#004242;}
 .highlight, .highlight a {color:red;font-size:1em;}
+#oldsuberror{display:none;}
 .search-container input {
   width:150px;max-width:80%;
   display:inline-block;margin:auto;
@@ -21,7 +22,7 @@ footer{position:absolute;bottom:0;}
   font-size: 17px;
   border: none;
 }
-#findnames, #confirm-buttons button, #rsvp-form button[type=submit]{
+#findnames, #confirm-buttons button, #rsvp-form button[type=submit], #rsvp-form button[type=button]{
   font-family:inherit;
   font-size:0.9em;padding:0.2em 0.5em;
   margin:0.7em;
@@ -29,7 +30,7 @@ footer{position:absolute;bottom:0;}
   border:2px solid black;
   cursor:pointer;
 }
-#findnames:hover, #confirm-buttons button:hover, #rsvp-form button[type=submit]:hover {
+#findnames:hover, #confirm-buttons button:hover, #rsvp-form button[type=submit]:hover, #rsvp-form button[type=button]:hover{
   background-color:#bdf1f1;
 }
 #findnames{
@@ -56,7 +57,7 @@ footer{position:absolute;bottom:0;}
 #rsvp-form textarea, #rsvp-form input[type=email]{font-size:0.9em;margin-bottom:1.5em;}
 #rsvp-form section div, #friexp {font-family:Montaga, serif;padding:1em 0 0.5em 0;}
 #rsvp-form section input[type=text] {background-color:inherit;color:inherit;}
-#rsvp-form button[type=submit] {
+#rsvp-form button[type=submit], #rsvp-form button[type=button] {
   font-size:1.3em;margin-top:1.8em;
 }
 #rsvp-form section input[readonly]{

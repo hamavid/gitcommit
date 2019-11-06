@@ -23,7 +23,7 @@ $(document).ready(function(){
       $('#confirm-buttons').css('display','none');
       $('#result').html('');
       $('section, button[type=submit]').remove();
-      $('#rsvp-form, #friexp').hide();
+      $('#rsvp-form, #friexp, #oldsuberror').hide();
       $('.search-container button, #indeed').removeClass('inactivebutton');
       $('#notso').show();
       e.preventDefault();
@@ -73,7 +73,7 @@ $(document).ready(function(){
       $('#namesinput').val('');
       $('#confirm-buttons').css('display','none');
       $('#result').html('');
-      $('#rsvp-form, #friexp').hide();
+      $('#rsvp-form, #friexp, #oldsuberror').hide();
       $('section, button[type=submit]').remove();
       $('.search-container button, #indeed').removeClass('inactivebutton');
       $('.broken, .broken a').addClass('highlight');
@@ -122,7 +122,10 @@ $(document).ready(function(){
           $('#diet'+w+' div').html('Please let us know about any food allergies or dietary restrictions for ' + guestname.split(' ')[0] + ', or anything else you want to tell us!');
           $('#diet'+w).show();
         }
-        $('#rsvp-form form').append('<button type="submit">Submit</button>');
+        //$('#rsvp-form form').append('<button type="submit">Submit</button>'); // commenting out post-wedding
+        $('#rsvp-form form').append('<button type="button" id="oldsubmitbutton">Submit</button>') // changing to this post-wedding
+        // Show old-submit button error message if submit button is hit (added post-wedding)
+         $('#oldsubmitbutton').click(function(){$('#oldsuberror').show()})
       }
     });
 
